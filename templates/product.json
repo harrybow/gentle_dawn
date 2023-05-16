@@ -159,13 +159,125 @@
         "image-with-text-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Yellow-Sultan.jpg",
         "height": "small",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0d086ff7-6f5b-406c-93d8-5e1d9f48d4f8": {
+      "type": "image-with-text",
+      "blocks": {
+        "28e22568-5c18-40fc-856f-82e5bb722ba4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "2cd1fd12-fcf8-4f50-9e1e-47d5509cfd0b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "28e22568-5c18-40fc-856f-82e5bb722ba4",
+        "2cd1fd12-fcf8-4f50-9e1e-47d5509cfd0b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/flask_blue.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8ca5ecb9-2b55-4080-ba5e-18002519c689": {
+      "type": "image-with-text",
+      "blocks": {
+        "92552014-d946-455b-ba9b-90153e9c013b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "d567ff06-a9d9-4b1f-b1a6-dfe4596eb68d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "92552014-d946-455b-ba9b-90153e9c013b",
+        "d567ff06-a9d9-4b1f-b1a6-dfe4596eb68d"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pink-tonic.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "12f675d2-caaf-4c92-a206-4c869e26d09f": {
+      "type": "image-with-text",
+      "blocks": {
+        "90296ec2-598c-43cb-a194-a354b1499b12": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "8919bd24-2881-4c26-bae1-1ea1a185e7ac": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "90296ec2-598c-43cb-a194-a354b1499b12",
+        "8919bd24-2881-4c26-bae1-1ea1a185e7ac"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_1706.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -237,6 +349,9 @@
   "order": [
     "main",
     "image-with-text",
+    "0d086ff7-6f5b-406c-93d8-5e1d9f48d4f8",
+    "8ca5ecb9-2b55-4080-ba5e-18002519c689",
+    "12f675d2-caaf-4c92-a206-4c869e26d09f",
     "multicolumn",
     "related-products"
   ]
