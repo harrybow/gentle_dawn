@@ -3,15 +3,16 @@
     "logo": "shopify:\/\/shop_images\/GG_Logotype.png",
     "logo_width": 150,
     "favicon": "shopify:\/\/shop_images\/hat_icon_b5f2cdf6-dca9-46c7-ba66-5f0b6f63d7ff.png",
-    "type_header_font": "assistant_n4",
-    "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_header_font": "din_next_n9",
+    "heading_scale": 110,
+    "type_body_font": "avenir_next_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1400,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
     "animations_reveal_on_scroll": true,
+    "animations_hover_elements": "default",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -21,7 +22,7 @@
     "buttons_shadow_blur": 5,
     "variant_pills_border_thickness": 1,
     "variant_pills_border_opacity": 55,
-    "variant_pills_radius": 40,
+    "variant_pills_radius": 6,
     "variant_pills_shadow_opacity": 0,
     "variant_pills_shadow_horizontal_offset": 0,
     "variant_pills_shadow_vertical_offset": 4,
@@ -136,10 +137,10 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#183d2b",
-          "button": "#183d2b",
+          "text": "#182b22",
+          "button": "#182b22",
           "button_label": "#ffffff",
-          "secondary_button_label": "#183d2b",
+          "secondary_button_label": "#182b22",
           "shadow": "#121212"
         }
       },
@@ -189,12 +190,12 @@
       },
       "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e": {
         "settings": {
-          "background": "#274637",
+          "background": "#182b22",
           "background_gradient": "",
           "text": "#f5f5f5",
-          "button": "#183d2b",
+          "button": "#182b22",
           "button_label": "#ffffff",
-          "secondary_button_label": "#183d2b",
+          "secondary_button_label": "#182b22",
           "shadow": "#121212"
         }
       },
@@ -202,10 +203,10 @@
         "settings": {
           "background": "#d8e2dd",
           "background_gradient": "",
-          "text": "#183d2b",
-          "button": "#183d2b",
+          "text": "#182b22",
+          "button": "#182b22",
           "button_label": "#ffffff",
-          "secondary_button_label": "#183d2b",
+          "secondary_button_label": "#182b22",
           "shadow": "#121212"
         }
       }
