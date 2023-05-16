@@ -5,7 +5,6 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -64,7 +63,16 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping",
+            "heading": "Fast Shipping",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "a68fccd4-07e0-4043-b9dd-c152b0617bad": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Payment",
             "icon": "truck",
             "content": "",
             "page": ""
@@ -108,6 +116,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
+        "a68fccd4-07e0-4043-b9dd-c152b0617bad",
         "collapsible-row-2",
         "collapsible-row-3",
         "share"
