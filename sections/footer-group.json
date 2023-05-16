@@ -5,35 +5,26 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
-          "type": "link_list",
+        "7d447861-5806-43eb-b0a1-00ad03655f8a": {
+          "type": "brand_information",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "show_social": false
           }
         },
-        "footer-1": {
+        "2dc518ed-534d-4869-add0-00f15b3418a5": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "",
+            "menu": "main-menu"
           }
         }
       },
       "block_order": [
-        "footer-0",
-        "footer-1",
-        "footer-2"
+        "7d447861-5806-43eb-b0a1-00ad03655f8a",
+        "2dc518ed-534d-4869-add0-00f15b3418a5"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
         "newsletter_enable": true,
         "newsletter_heading": "Keep gently in touch",
         "enable_follow_on_shop": true,
