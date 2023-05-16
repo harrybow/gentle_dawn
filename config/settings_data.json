@@ -152,7 +152,7 @@
       "background-2": {
         "settings": {
           "background": "#de9500",
-          "background_gradient": "radial-gradient(rgba(222, 149, 0, 1), rgba(202, 135, 0, 1) 100%)",
+          "background_gradient": "radial-gradient(rgba(222, 149, 0, 1), rgba(168, 117, 13, 1) 100%)",
           "text": "#fff",
           "button": "#de9500",
           "button_label": "#fff",
@@ -163,7 +163,7 @@
       "inverse": {
         "settings": {
           "background": "#2179cf",
-          "background_gradient": "radial-gradient(rgba(33, 121, 207, 1), rgba(28, 101, 173, 1) 100%)",
+          "background_gradient": "radial-gradient(rgba(33, 121, 207, 1), rgba(13, 80, 146, 1) 100%)",
           "text": "#ffffff",
           "button": "#2179cf",
           "button_label": "#ffffff",
@@ -174,7 +174,7 @@
       "accent-1": {
         "settings": {
           "background": "#ce75aa",
-          "background_gradient": "radial-gradient(rgba(206, 117, 170, 1), rgba(167, 96, 138, 1) 100%)",
+          "background_gradient": "radial-gradient(rgba(206, 117, 170, 1), rgba(136, 66, 107, 1) 100%)",
           "text": "#ffffff",
           "button": "#ce75aa",
           "button_label": "#ffffff",
