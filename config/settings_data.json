@@ -1,6 +1,8 @@
 {
   "current": {
-    "logo_width": 90,
+    "logo": "shopify:\/\/shop_images\/GG_Logotype.png",
+    "logo_width": 150,
+    "favicon": "shopify:\/\/shop_images\/hat_icon_b5f2cdf6-dca9-46c7-ba66-5f0b6f63d7ff.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -182,6 +184,17 @@
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#121212",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
