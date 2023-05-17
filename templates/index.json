@@ -77,8 +77,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -106,6 +106,23 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "3d779ec5-d4fd-4184-88e7-a01f1df73ef5": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Stirred or shaken (Gentle Gin Recipes)",
+        "heading_size": "h1",
+        "blog": "recipes",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -214,32 +231,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "3d779ec5-d4fd-4184-88e7-a01f1df73ef5": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Stirred or shaken (Gentle Gin Recipes)",
-        "heading_size": "h1",
-        "blog": "recipes",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "featured_collection",
+    "3d779ec5-d4fd-4184-88e7-a01f1df73ef5",
     "collage",
     "video",
-    "multicolumn",
-    "3d779ec5-d4fd-4184-88e7-a01f1df73ef5"
+    "multicolumn"
   ]
 }
