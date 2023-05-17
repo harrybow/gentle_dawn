@@ -98,8 +98,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
     "sold_out_badge_color_scheme": "scheme-5f541abf-2222-4580-9242-293f60c35b1b",
-    "brand_headline": "Made in Berlin",
-    "brand_description": "<p>Small batch. Hand made.<\/p>",
+    "brand_headline": "Keep it gentle!",
+    "brand_description": "<p>Small batch. Handmade in Berlin.<\/p>",
     "social_facebook_link": "",
     "social_instagram_link": "https:\/\/www.instagram.com\/gentlegin\/",
     "social_youtube_link": "",
@@ -153,10 +153,10 @@
         "settings": {
           "background": "#de9500",
           "background_gradient": "radial-gradient(rgba(222, 149, 0, 1), rgba(168, 117, 13, 1) 100%)",
-          "text": "#fff",
+          "text": "#ffffff",
           "button": "#de9500",
-          "button_label": "#fff",
-          "secondary_button_label": "#fff",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       },
