@@ -174,7 +174,7 @@
       "accent-1": {
         "settings": {
           "background": "#ce75aa",
-          "background_gradient": "radial-gradient(rgba(206, 117, 170, 1), rgba(136, 66, 107, 1) 100%)",
+          "background_gradient": "radial-gradient(rgba(206, 117, 170, 1), rgba(186, 87, 146, 1) 100%)",
           "text": "#ffffff",
           "button": "#ce75aa",
           "button_label": "#ffffff",
