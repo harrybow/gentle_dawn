@@ -152,7 +152,7 @@
       "background-2": {
         "settings": {
           "background": "#de9500",
-          "background_gradient": "radial-gradient(rgba(222, 149, 0, 1), rgba(168, 117, 13, 1) 100%)",
+          "background_gradient": "radial-gradient(rgba(222, 149, 0, 1), rgba(195, 155, 74, 1) 100%)",
           "text": "#ffffff",
           "button": "#de9500",
           "button_label": "#ffffff",
