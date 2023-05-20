@@ -81,10 +81,58 @@
         "padding_bottom": 36
       }
     },
+    "087f1d5f-a6e2-4b15-ba0a-29036f68d0f6": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-0",
+        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-1",
+        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dach_pink1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".card__information {display: none;}"
+      ],
       "settings": {
-        "title": "Featured products",
+        "title": "Unsere Besten",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -236,6 +284,7 @@
   "order": [
     "image_banner",
     "rich_text",
+    "087f1d5f-a6e2-4b15-ba0a-29036f68d0f6",
     "featured_collection",
     "3d779ec5-d4fd-4184-88e7-a01f1df73ef5",
     "collage",
