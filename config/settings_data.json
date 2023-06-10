@@ -143,9 +143,9 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#182b22",
-          "button": "#182b22",
+          "button": "#3b2618",
           "button_label": "#ffffff",
-          "secondary_button_label": "#182b22",
+          "secondary_button_label": "#3b2618",
           "shadow": "#121212"
         }
       },
@@ -209,9 +209,9 @@
           "background": "#d8e2dd",
           "background_gradient": "",
           "text": "#182b22",
-          "button": "#182b22",
+          "button": "#3b2618",
           "button_label": "#ffffff",
-          "secondary_button_label": "#182b22",
+          "secondary_button_label": "#3b2618",
           "shadow": "#121212"
         }
       }
