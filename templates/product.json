@@ -18,7 +18,7 @@
         "aab53c8d-9763-4b25-8787-a1162ec46c69": {
           "type": "text",
           "settings": {
-            "text": "Text block",
+            "text": "{{ product.metafields.custom.size_alc.value }}",
             "text_style": "subtitle"
           }
         },
