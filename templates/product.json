@@ -170,6 +170,9 @@
       "block_order": [
         "20db5c6f-d3ec-47dd-a815-ce9e2217d633"
       ],
+      "custom_css": [
+        "p {font-size: 2rem; font-weight: bold;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -383,6 +386,9 @@
       "block_order": [
         "6da49d3b-6e4e-4a00-987d-54e6e4cfcde6"
       ],
+      "custom_css": [
+        "p {font-size: 2rem; font-weight: bold;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -488,6 +494,9 @@
       "block_order": [
         "04c12c3c-38dc-4120-97c5-a590d054bb3b"
       ],
+      "custom_css": [
+        "p {font-size: 2rem; font-weight: bold;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -556,6 +565,9 @@
       "block_order": [
         "30d7b576-0293-4a68-b212-3c660a2d96c7",
         "9aaacd05-248a-4761-a942-367361980471"
+      ],
+      "custom_css": [
+        "p {font-size: 1,5rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/GG_Range.jpg",
