@@ -114,22 +114,31 @@
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
+        "c521f801-e10e-483a-8aef-ca0e96d7cd56": {
+          "type": "caption",
+          "settings": {
+            "caption": "Gentle Gin Saffron",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Sinnlich & betörend",
             "heading_size": "h1"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Dieser einzigartige Tropfen ist eine sinnliche Hommage an die farbenprächtigen Gewürzmärkte des Orients, verstrickt in einem Tango der Geschmacksexplosionen, der deine Sinne fesseln wird.<\/p><p>Saffron, unser edler Gin, ist kein gewöhnlicher Spirituose. Er ist eine Symphonie aus erlesenen Aromen und faszinierenden Geschmacksnuancen. Im Zentrum dieses Sinnesfeuerwerks steht das namensgebende Safran, das teuerste Gewürz der Welt, das mit seiner unverwechselbaren Note und dem strahlenden Goldton unseren Gin bereichert.<\/p><p>Doch die Erfahrung von Saffron ist mehr als nur Safran. Es ist ein Orchester, das von der sonnigen Zitrusnote der Grapefruit bis hin zur tiefen, erdigen Wärme des Kurkuma reicht. Jedes Element ist sorgfältig ausgewählt, jedes bringt seine eigene Melodie ein und zusammen ergeben sie eine Harmonie, die im Glas singt.<\/p><p><\/p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
+        "c521f801-e10e-483a-8aef-ca0e96d7cd56",
         "image-with-text-0",
         "image-with-text-1"
       ],
@@ -145,7 +154,69 @@
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
+      }
+    },
+    "3079054c-ab61-4065-ba0b-10125f454fa6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17865780330762__3079054c-ab61-4065-ba0b-10125f454fa6-16871693853d33d18b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Geschmackstiefe des Saffron Gin ist außergewöhnlich. Fast schlierig, wie bei einem guten Whiskey, hat er eine Komplexität, die einzigartig ist. Dieser Gin lädt dich ein, ihn langsam zu kosten, ihn auf der Zunge zu rollen, während du seine reiche, ausgewogene Note genießt.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17865780330762__3079054c-ab61-4065-ba0b-10125f454fa6-16871693853d33d18b-1"
+      ],
+      "custom_css": [
+        "p {font-size: 2rem; font-weight: bold;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5f541abf-2222-4580-9242-293f60c35b1b",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "daea63a2-4bb5-40d9-a05c-d57b862e3791": {
+      "type": "image-with-text",
+      "blocks": {
+        "94469141-742a-4c7a-b5fc-b4706cdc93ae": {
+          "type": "heading",
+          "settings": {
+            "heading": "Für den perfekten Moment",
+            "heading_size": "h2"
+          }
+        },
+        "6702f697-1b07-41ad-a14e-b0f5e824ffea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der Gentle Gin Saffron ist ein Augenschmaus in sich. Sein leuchtender goldener Farbton erinnert an die untergehende Sonne in einer exotischen Landschaft, an opulente Paläste und die unendlichen Weiten des Wüstensandes.<\/p><p>Wenn du ein Glas Saffron Gin in der Hand hältst, hältst du mehr als nur einen außergewöhnlichen Drink. Du hältst ein Stück Poesie, ein Stück Abenteuer, ein Stück Lebensfreude. Du hältst ein Versprechen - das Versprechen einer Geschmacksexplosion, die dich auf eine Reise mitnimmt, die du so schnell nicht vergessen wirst.<\/p><p>Ob du ihn pur genießt, um seine komplexe Vielfalt voll auszukosten, oder ob du ihn als Basis für einen kreativen Cocktail verwendest, Gentle Gin Saffron ist immer ein Erlebnis. Er ist ein Aufruf, mutig zu sein, Neues zu entdecken und sich der Freude am Genuss hinzugeben. Lass dich von Saffron entführen und entdecke den Geschmack des Unbekannten. Willkommen in der Gentle Gin Welt!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "94469141-742a-4c7a-b5fc-b4706cdc93ae",
+        "6702f697-1b07-41ad-a14e-b0f5e824ffea"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Yellow-Sultan.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "0d086ff7-6f5b-406c-93d8-5e1d9f48d4f8": {
@@ -378,6 +449,8 @@
   "order": [
     "main",
     "image-with-text",
+    "3079054c-ab61-4065-ba0b-10125f454fa6",
+    "daea63a2-4bb5-40d9-a05c-d57b862e3791",
     "0d086ff7-6f5b-406c-93d8-5e1d9f48d4f8",
     "8ca5ecb9-2b55-4080-ba5e-18002519c689",
     "12f675d2-caaf-4c92-a206-4c869e26d09f",
