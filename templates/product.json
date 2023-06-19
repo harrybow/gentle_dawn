@@ -539,6 +539,7 @@
       "blocks": {
         "30d7b576-0293-4a68-b212-3c660a2d96c7": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image with text",
             "heading_size": "h1"
@@ -547,7 +548,7 @@
         "9aaacd05-248a-4761-a942-367361980471": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Unser Gentle Gin - Four of a Kind Set ist das perfekte Geschenk für alle<br\/> Gin-Liebhaber und die, die es noch werden wollen. Vier handliche <br\/>100ml-Flaschen unserer erlesenen Gin-Sorten bieten ein Bouquet an <br\/>Geschmacksexplosionen und passen perfekt in jedes Handgepäck - das <br\/>ideale Souvenir aus Berlin oder als Begleiter für einen Flug in den <br\/>Urlaub. Ob als Geschenk für einen besonderen Menschen, als Mitbringsel <br\/>für eine Party oder einfach nur, um sich einen schönen Abend zu gönnen -<br\/> mit unserem Four of a Kind Set liegst du immer goldrichtig.<\/p>",
             "text_style": "body"
           }
         }
@@ -561,7 +562,7 @@
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "background-1",
