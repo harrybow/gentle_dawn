@@ -157,68 +157,6 @@
         "padding_bottom": 32
       }
     },
-    "e7f54e15-5c92-425d-8f95-0f124941b198": {
-      "type": "rich-text",
-      "blocks": {
-        "20db5c6f-d3ec-47dd-a815-ce9e2217d633": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Die Geschmackstiefe des Saffron Gin ist außergewöhnlich. Fast schlierig, wie bei einem guten Whiskey, hat er eine Komplexität, die einzigartig ist. Dieser Gin lädt dich ein, ihn langsam zu kosten, ihn auf der Zunge zu rollen, während du seine reiche, ausgewogene Note genießt.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "20db5c6f-d3ec-47dd-a815-ce9e2217d633"
-      ],
-      "custom_css": [
-        "p {font-size: 2rem; font-weight: bold;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 12
-      }
-    },
-    "daea63a2-4bb5-40d9-a05c-d57b862e3791": {
-      "type": "image-with-text",
-      "blocks": {
-        "94469141-742a-4c7a-b5fc-b4706cdc93ae": {
-          "type": "heading",
-          "settings": {
-            "heading": "Für den perfekten Moment",
-            "heading_size": "h2"
-          }
-        },
-        "6702f697-1b07-41ad-a14e-b0f5e824ffea": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Der Gentle Gin Saffron ist ein Augenschmaus in sich. Sein leuchtender goldener Farbton erinnert an die untergehende Sonne in einer exotischen Landschaft, an opulente Paläste und die unendlichen Weiten des Wüstensandes.<\/p><p>Ob du ihn pur genießt, um seine komplexe Vielfalt voll auszukosten, oder ob du ihn als Basis für einen kreativen Cocktail verwendest, Gentle Gin Saffron ist immer ein Erlebnis. Er ist ein Aufruf, mutig zu sein, Neues zu entdecken und sich der Freude am Genuss hinzugeben. Lass dich von Saffron entführen und entdecke den Geschmack des Unbekannten. Willkommen in der Gentle Gin Welt!<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "94469141-742a-4c7a-b5fc-b4706cdc93ae",
-        "6702f697-1b07-41ad-a14e-b0f5e824ffea"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/A_tumbler_glass_filled_with_a_vibrant_golden-yell_70b6eaaf-477d-477e-be5c-8056fbdf3947.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
     "9f59e8b7-ed25-464c-a56b-f0fcbc814f9c": {
       "type": "image-with-text",
       "blocks": {
@@ -254,7 +192,7 @@
         "image": "shopify:\/\/shop_images\/A_crystal-clear_coupe_glass_filled_with_Gentle_Gi_16c63de8-6315-446c-be73-ad0a714fa26a.png",
         "height": "small",
         "desktop_image_width": "small",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
@@ -263,68 +201,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 32
-      }
-    },
-    "3079054c-ab61-4065-ba0b-10125f454fa6": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17865780330762__3079054c-ab61-4065-ba0b-10125f454fa6-16871693853d33d18b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Die Leichtigkeit des Wacholders gibt den anderen Aromen Raum, sich voll zu entfalten. Gleichzeitig sorgt der Earl Grey Tee für eine feine Bergamotte-Note, während der Pai Mu Dan Tee einen Hauch von blumiger Süße beisteuert. Dazu gesellt sich die spritzige Frische von Zitronenverbene und Orange, abgerundet durch das erdige, leicht bittere Aroma der Angelikawurzel.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17865780330762__3079054c-ab61-4065-ba0b-10125f454fa6-16871693853d33d18b-1"
-      ],
-      "custom_css": [
-        "p {font-size: 2rem; font-weight: bold;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 12
-      }
-    },
-    "b6cd1444-4fd3-4b3a-b812-ad8e05aa3153": {
-      "type": "image-with-text",
-      "blocks": {
-        "325252cd-aad8-403a-80e7-b9874466d3d4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Für den perfekten Moment",
-            "heading_size": "h2"
-          }
-        },
-        "3fed0c37-2bb7-41bb-95dd-9e4ead3f8052": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Jede Flasche Gentle Gin Tea Dry ist wie ein Roman in Flüssigform, erzählt von exotischen Orten und von der Freude am Entdecken. Seine natürliche Farbe, die wie flüssiges Gold in deinem Glas schimmert, ist der Beweis für seine Echtheit, seine Natürlichkeit, seine Authentizität.<\/p><p>Genieße den Gentle Gin Tea Dry pur, auf Eis, mit einem Spritzer Zitronensaft oder in deinem Lieblingscocktail. So oder so, sei bereit, deinen Horizont zu erweitern und deine Geschmacksknospen zu verwöhnen. Sei Gentle, sei mutig, sei du selbst. Entdecke die Welt von Gentle Gin.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "325252cd-aad8-403a-80e7-b9874466d3d4",
-        "3fed0c37-2bb7-41bb-95dd-9e4ead3f8052"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/A_crystal-clear_coupe_glass_filled_with_Gentle_Gi_293d9496-1ca7-4cf2-9c9b-6b1f7c9e7278.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "accent-2",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 20,
-        "padding_bottom": 0
       }
     },
     "4315c828-724c-4210-9c82-6797dbd2bf5d": {
@@ -373,68 +249,6 @@
         "padding_bottom": 32
       }
     },
-    "f22dd3f3-92ca-453d-b11e-673b4447da27": {
-      "type": "rich-text",
-      "blocks": {
-        "6da49d3b-6e4e-4a00-987d-54e6e4cfcde6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Mit seinem sanft süßen Geschmack und dem dezenten Wacholderaroma ist er ein Hochgenuss für den Gaumen. Er ist ein perfektes Gleichgewicht zwischen Zartheit und Stärke, zwischen Süße und Bitterkeit. Mit jedem Schluck, mit jedem Farbwechsel entführt er dich in eine Welt der Wunder und Fantasie.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "6da49d3b-6e4e-4a00-987d-54e6e4cfcde6"
-      ],
-      "custom_css": [
-        "p {font-size: 2rem; font-weight: bold;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 12
-      }
-    },
-    "6967ccec-2575-44cc-8175-79ab53e008c4": {
-      "type": "image-with-text",
-      "blocks": {
-        "8f6705b9-a5fc-49b3-87b9-f8fcde0f8a07": {
-          "type": "heading",
-          "settings": {
-            "heading": "Verzaubere deine Gäste",
-            "heading_size": "h2"
-          }
-        },
-        "4d2529eb-841c-4cb4-9a60-ebbc15bb507e": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lass dich und deine Freunde verzaubern von der Magie des Gentle Gin Tea Blue. Probiere ihn pur, auf Eis oder in einem verführerischen Cocktail. Genieße das Spektakel, wie er seine Farbe verändert, und tauche ein in ein Geschmackserlebnis, das du so noch nie erlebt hast. Willkommen in der Gentle Gin Welt!<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "8f6705b9-a5fc-49b3-87b9-f8fcde0f8a07",
-        "4d2529eb-841c-4cb4-9a60-ebbc15bb507e"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/A_tall_highball_glass_filled_halfway_with_the_sap_07ba293b-d9d6-4def-b963-7f205cc0fe5f.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "inverse",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
     "ca321736-3f80-4ac9-8d9b-c74ff5462ee5": {
       "type": "image-with-text",
       "blocks": {
@@ -470,7 +284,7 @@
         "image": "shopify:\/\/shop_images\/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_ce524127-5536-4ce9-9618-89195504599c.png",
         "height": "small",
         "desktop_image_width": "small",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
@@ -479,68 +293,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 32
-      }
-    },
-    "7f845f3d-403a-4cdf-a7ef-e716f534ad0e": {
-      "type": "rich-text",
-      "blocks": {
-        "04c12c3c-38dc-4120-97c5-a590d054bb3b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Mit seinem zarten Wacholdergeschmack lässt er die anderen Aromen zur Geltung kommen und schafft ein Geschmackserlebnis, das einzigartig und unvergesslich ist. Er ist die perfekte Balance zwischen Zartheit und Kraft, zwischen Subtilität und Intensität.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "04c12c3c-38dc-4120-97c5-a590d054bb3b"
-      ],
-      "custom_css": [
-        "p {font-size: 2rem; font-weight: bold;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 12
-      }
-    },
-    "d7cdfc00-24b1-4ad3-b9e6-84b9fc3c6148": {
-      "type": "image-with-text",
-      "blocks": {
-        "fedfd483-b7bd-4e21-ab7d-fd2950943b5f": {
-          "type": "heading",
-          "settings": {
-            "heading": "Für außergewöhnliche Momente",
-            "heading_size": "h2"
-          }
-        },
-        "1394b602-5e81-4346-b10e-91d49477843c": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Genieße den Pink One pur, auf Eis oder in einem spritzigen Cocktail. Egal wie du ihn trinkst, du wirst das einzigartige Erlebnis spüren, das er bietet. Er ist nicht nur ein Gin, er ist eine Erfahrung, ein Abenteuer, eine Reise in die unbekannten Tiefen des Geschmacks.<\/p><p>Tauche ein in die Welt von Gentle Gin, wo das Unmögliche möglich wird und das Alltägliche außergewöhnlich wird. Probiere den Pink One und entdecke ein Geschmackserlebnis, das dich verzaubern wird. Willkommen in der Gentle Gin Welt!<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "fedfd483-b7bd-4e21-ab7d-fd2950943b5f",
-        "1394b602-5e81-4346-b10e-91d49477843c"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_0cd64c47-9e70-46b3-b448-620c7bf36647.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "accent-1",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 20,
-        "padding_bottom": 0
       }
     },
     "3ea1aa2c-ffef-4d3c-ae86-6d68b1fa113c": {
@@ -624,17 +376,9 @@
   "order": [
     "main",
     "image-with-text",
-    "e7f54e15-5c92-425d-8f95-0f124941b198",
-    "daea63a2-4bb5-40d9-a05c-d57b862e3791",
     "9f59e8b7-ed25-464c-a56b-f0fcbc814f9c",
-    "3079054c-ab61-4065-ba0b-10125f454fa6",
-    "b6cd1444-4fd3-4b3a-b812-ad8e05aa3153",
     "4315c828-724c-4210-9c82-6797dbd2bf5d",
-    "f22dd3f3-92ca-453d-b11e-673b4447da27",
-    "6967ccec-2575-44cc-8175-79ab53e008c4",
     "ca321736-3f80-4ac9-8d9b-c74ff5462ee5",
-    "7f845f3d-403a-4cdf-a7ef-e716f534ad0e",
-    "d7cdfc00-24b1-4ad3-b9e6-84b9fc3c6148",
     "3ea1aa2c-ffef-4d3c-ae86-6d68b1fa113c",
     "9931fee3-d3bb-4acc-87a4-59d9f59460bd",
     "related-products"
