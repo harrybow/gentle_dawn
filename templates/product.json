@@ -60,7 +60,7 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Fast Shipping",
+            "heading": "DHL Versand",
             "icon": "truck",
             "content": "",
             "page": ""
@@ -69,7 +69,7 @@
         "a68fccd4-07e0-4043-b9dd-c152b0617bad": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Secure Payment",
+            "heading": "Sicher",
             "icon": "lock",
             "content": "",
             "page": ""
