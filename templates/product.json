@@ -69,7 +69,7 @@
         "a68fccd4-07e0-4043-b9dd-c152b0617bad": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Sicher",
+            "heading": "Schnell & sicher zahlen",
             "icon": "lock",
             "content": "",
             "page": ""
@@ -384,49 +384,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -456,7 +413,6 @@
     "12f675d2-caaf-4c92-a206-4c869e26d09f",
     "3ea1aa2c-ffef-4d3c-ae86-6d68b1fa113c",
     "9931fee3-d3bb-4acc-87a4-59d9f59460bd",
-    "multicolumn",
     "related-products"
   ]
 }
