@@ -443,7 +443,7 @@
         "72cdd942-92b9-485b-bd49-cacaa8970be9": {
           "type": "heading",
           "settings": {
-            "heading": "Sinnlich & betörend",
+            "heading": "Ein fantastischer Sonnenuntergang",
             "heading_size": "h1"
           }
         },
@@ -461,7 +461,7 @@
         "1b35d947-660e-460d-aefc-502ad871b78c"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/genialitaeter_A_tumbler_glass_filled_with_a_vibrant_golden-yell_5a511ae5-69ef-441a-94eb-a18b28e609da.png",
+        "image": "shopify:\/\/shop_images\/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_ce524127-5536-4ce9-9618-89195504599c.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -503,14 +503,14 @@
         "fedfd483-b7bd-4e21-ab7d-fd2950943b5f": {
           "type": "heading",
           "settings": {
-            "heading": "Für den perfekten Moment",
+            "heading": "Für außergewöhnliche Momente",
             "heading_size": "h2"
           }
         },
         "1394b602-5e81-4346-b10e-91d49477843c": {
           "type": "text",
           "settings": {
-            "text": "<p>Der Gentle Gin Saffron ist ein Augenschmaus in sich. Sein leuchtender goldener Farbton erinnert an die untergehende Sonne in einer exotischen Landschaft, an opulente Paläste und die unendlichen Weiten des Wüstensandes.<\/p><p>Ob du ihn pur genießt, um seine komplexe Vielfalt voll auszukosten, oder ob du ihn als Basis für einen kreativen Cocktail verwendest, Gentle Gin Saffron ist immer ein Erlebnis. Er ist ein Aufruf, mutig zu sein, Neues zu entdecken und sich der Freude am Genuss hinzugeben. Lass dich von Saffron entführen und entdecke den Geschmack des Unbekannten. Willkommen in der Gentle Gin Welt!<\/p>",
+            "text": "<p>Genieße den Pink One pur, auf Eis oder in einem spritzigen Cocktail. Egal wie du ihn trinkst, du wirst das einzigartige Erlebnis spüren, das er bietet. Er ist nicht nur ein Gin, er ist eine Erfahrung, ein Abenteuer, eine Reise in die unbekannten Tiefen des Geschmacks.<\/p><p>Tauche ein in die Welt von Gentle Gin, wo das Unmögliche möglich wird und das Alltägliche außergewöhnlich wird. Probiere den Pink One und entdecke ein Geschmackserlebnis, das dich verzaubern wird. Willkommen in der Gentle Gin Welt!<\/p>",
             "text_style": "body"
           }
         }
@@ -520,14 +520,14 @@
         "1394b602-5e81-4346-b10e-91d49477843c"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/A_tumbler_glass_filled_with_a_vibrant_golden-yell_70b6eaaf-477d-477e-be5c-8056fbdf3947.png",
+        "image": "shopify:\/\/shop_images\/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_0cd64c47-9e70-46b3-b448-620c7bf36647.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
         "padding_top": 20,
