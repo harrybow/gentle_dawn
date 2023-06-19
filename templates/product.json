@@ -143,7 +143,7 @@
         "image-with-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yellow-Sultan.jpg",
+        "image": "shopify:\/\/shop_images\/genialitaeter_A_tumbler_glass_filled_with_a_vibrant_golden-yell_5a511ae5-69ef-441a-94eb-a18b28e609da.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -205,7 +205,7 @@
         "6702f697-1b07-41ad-a14e-b0f5e824ffea"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yellow-Sultan.jpg",
+        "image": "shopify:\/\/shop_images\/A_tumbler_glass_filled_with_a_vibrant_golden-yell_70b6eaaf-477d-477e-be5c-8056fbdf3947.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -215,7 +215,7 @@
         "color_scheme": "background-2",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
-        "padding_top": 16,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },
