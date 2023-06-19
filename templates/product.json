@@ -545,6 +545,7 @@
     },
     "3ea1aa2c-ffef-4d3c-ae86-6d68b1fa113c": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "30d7b576-0293-4a68-b212-3c660a2d96c7": {
           "type": "heading",
