@@ -194,7 +194,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "merchandising"
+            "collection": "sets"
           }
         }
       },
@@ -204,7 +204,7 @@
         "collection-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -216,6 +216,7 @@
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -230,6 +231,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
