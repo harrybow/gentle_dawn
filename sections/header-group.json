@@ -14,6 +14,7 @@
         },
         "233074dc-611e-4815-968e-7ab015d25288": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Neues Design",
             "link": ""
@@ -21,6 +22,7 @@
         },
         "6b1df875-7d43-4b20-8e8f-621f0c991c03": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Versand nach DE kostenlos ab 100 €",
             "link": "shopify:\/\/pages\/versandkosten"
