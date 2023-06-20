@@ -71,7 +71,7 @@
           "settings": {
             "heading": "Schnell & sicher zahlen",
             "icon": "lock",
-            "content": "",
+            "content": "<p>Wir unterstützen alle gängigen Zahlungsanbieter über unser <br\/>verschlüsseltes Zahlungsportal. Darunter auch Raten- und Rechnungskauf <br\/>über Klarna.<\/p>",
             "page": ""
           }
         },
