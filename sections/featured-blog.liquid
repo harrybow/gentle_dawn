@@ -59,7 +59,7 @@
           role="list"
         >
           {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
-            {%- if article.tags contains 'pink-one' %}
+            {%- if article.tags contains 'soda' %}
               <li
                 id="Slide-{{ section.id }}-{{ forloop.index }}"
                 class="blog__post grid__item article slider__slide slider__slide--full-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
