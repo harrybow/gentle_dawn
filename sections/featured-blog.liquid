@@ -59,7 +59,10 @@
           role="list"
         >
           {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
-            <li
+            {%- unless section.settings.tags == blank -%}
+              {%- if article.tags contains section.settings.tags -%}
+            {%- endunless -%}   
+              <li
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               class="blog__post grid__item article slider__slide slider__slide--full-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {% if settings.animations_reveal_on_scroll %}
@@ -77,6 +80,9 @@
                 show_excerpt: true
               %}
             </li>
+            {%- unless section.settings.tags == blank -%}
+              {%- endif -%}
+            {%- endunless -%}   
           {%- endfor -%}
         </ul>
         {%- if posts_exceed_limit -%}
@@ -185,6 +191,12 @@
       "type": "blog",
       "id": "blog",
       "label": "t:sections.featured-blog.settings.blog.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "tags",
+      "default": "Filter by tag",
+      "label": "Filter blog posts by tag"
     },
     {
       "type": "range",
