@@ -84,7 +84,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".card__information {display: none;}"
+
       ],
       "settings": {
         "title": "Unsere Besten",
