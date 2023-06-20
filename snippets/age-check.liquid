@@ -1,4 +1,4 @@
-{% assign enter_date_of_birth = true %}
+{% assign enter_date_of_birth = false %}
 
 {% assign age = 18 %}
 
@@ -268,7 +268,7 @@ Diese Webseite bewirbt den verantwortungsvollen Genuss von Alkohol und ist somit
   .modal-prompt {
     background: #fff;
     border-radius: 2px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     width: 330px;
     height: auto;
     margin: 0 auto;
@@ -276,14 +276,16 @@ Diese Webseite bewirbt den verantwortungsvollen Genuss von Alkohol und ist somit
     position: relative;
     top: 25%;
     z-index: 1000000;
+    text-align: center;
   }
 
-  .modal-prompt p, .modal-prompt h1 {
+  .modal-prompt p,
+  .modal-prompt h1 {
     color: #555555;
   }
 
   #prompt-background {
-    background: url("{{ 'GG_Woods_new.jpg' | asset_url }}") no-repeat center center fixed #555;
+    background: url("{{ 'GG_Woods_new' | asset_url }}") no-repeat center center fixed #555;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -296,5 +298,8 @@ Diese Webseite bewirbt den verantwortungsvollen Genuss von Alkohol und ist somit
     z-index: 9999999;
   }
 
-  .modal-prompt select { float: left; margin-right: 10px; }
+  .modal-prompt select {
+    float: left;
+    margin-right: 10px;
+  }
 </style>
