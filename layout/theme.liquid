@@ -269,7 +269,7 @@
       {{ 'accessibility.skip_to_text' | t }}
     </a>
 
-    {% unless request.page_type contains 'admin' %}
+    {% unless request.url contains 'admin' %}
       {% render 'age-check' %}
     {% endunless %}
 
