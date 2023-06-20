@@ -60,10 +60,10 @@
         >
           {% assign filter_tag = section.settings.filter_tag %}
 
-          {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
+          {%- for article in section.settings.blog.articles -%}
             {{ filter_tag }}
             {{ article.tags }}
-            {%- if article.tags contains filter_tag -%}
+            {%- if article.tags contains filter_tag and section.settings.post_limit >= forloop.index -%}
               <li
                 id="Slide-{{ section.id }}-{{ forloop.index }}"
                 class="blog__post grid__item article slider__slide slider__slide--full-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
