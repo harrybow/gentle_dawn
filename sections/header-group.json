@@ -11,10 +11,18 @@
             "text": "Handmade in Berlin",
             "link": ""
           }
+        },
+        "233074dc-611e-4815-968e-7ab015d25288": {
+          "type": "announcement",
+          "settings": {
+            "text": "Neues Design",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "233074dc-611e-4815-968e-7ab015d25288"
       ],
       "settings": {
         "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
