@@ -63,7 +63,7 @@
             "heading": "DHL Versand",
             "icon": "truck",
             "content": "",
-            "page": ""
+            "page": "versandkosten"
           }
         },
         "a68fccd4-07e0-4043-b9dd-c152b0617bad": {
@@ -71,7 +71,7 @@
           "settings": {
             "heading": "Schnell & sicher zahlen",
             "icon": "lock",
-            "content": "",
+            "content": "<p>Wir unterstützen <strong>alle gängigen Zahlungsanbieter<\/strong> über unser <br\/>verschlüsseltes Zahlungsportal. Darunter auch <strong>Raten- und Rechnungskauf<\/strong> <br\/>über Klarna.<\/p>",
             "page": ""
           }
         },
@@ -225,7 +225,6 @@
         "heading": "Für den perfekten Drink",
         "heading_size": "h2",
         "blog": "recipes",
-        "filter_tag": "soda",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
