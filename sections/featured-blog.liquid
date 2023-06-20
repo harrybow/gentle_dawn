@@ -61,7 +61,6 @@
           {% assign filter_tag = section.settings.filter_tag %}
 
           {%- for article in section.settings.blog.articles -%}
-            {{ filter_tag }}
             {{ article.tags }}
             {%- if article.tags contains filter_tag and section.settings.post_limit >= forloop.index -%}
               <li
