@@ -17,11 +17,19 @@
             "heading": "",
             "menu": "main-menu"
           }
+        },
+        "e112ea85-4bb5-4abb-9735-6ed730dab608": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
         "7d447861-5806-43eb-b0a1-00ad03655f8a",
-        "2dc518ed-534d-4869-add0-00f15b3418a5"
+        "2dc518ed-534d-4869-add0-00f15b3418a5",
+        "e112ea85-4bb5-4abb-9735-6ed730dab608"
       ],
       "settings": {
         "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
