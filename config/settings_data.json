@@ -173,10 +173,10 @@
       },
       "accent-1": {
         "settings": {
-          "background": "#ce75aa",
-          "background_gradient": "radial-gradient(rgba(206, 117, 170, 1), rgba(186, 87, 146, 1) 100%)",
+          "background": "#d982a1",
+          "background_gradient": "radial-gradient(rgba(217, 130, 161, 1), rgba(181, 92, 124, 1) 100%)",
           "text": "#ffffff",
-          "button": "#ce75aa",
+          "button": "#d982a1",
           "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
