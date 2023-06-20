@@ -118,6 +118,8 @@
     "show_cart_note": true,
     "cart_drawer_collection": "bottles",
     "checkout_logo_image": "shopify:\/\/shop_images\/GG_Logotype.png",
+    "checkout_body_background_color": "#d8e2dd",
+    "checkout_sidebar_background_color": "#274637",
     "checkout_accent_color": "#182b22",
     "checkout_button_color": "#274637",
     "sections": {
