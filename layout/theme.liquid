@@ -269,7 +269,9 @@
       {{ 'accessibility.skip_to_text' | t }}
     </a>
 
-    {% render 'age-check' %}
+    {% unless request.page_type contains 'admin' %}
+      {% render 'age-check' %}
+    {% endunless %}
 
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
