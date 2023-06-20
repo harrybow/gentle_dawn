@@ -61,7 +61,7 @@
           {% assign filter_tag = section.settings.filter_tag %}
 
           {%- for article in section.settings.blog.articles -%}
-            {{ article.tags }}
+            {{ article.tags }},
             {%- if article.tags contains filter_tag and section.settings.post_limit >= forloop.index -%}
               <li
                 id="Slide-{{ section.id }}-{{ forloop.index }}"
