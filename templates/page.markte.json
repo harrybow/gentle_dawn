@@ -35,6 +35,7 @@
         "template--17903879848202__a8e428ea-8dc8-481f-9e36-4074cb2c70c8-16873717353e32578d-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/marktstand.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -53,10 +54,20 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "f373b003-647f-47a7-a34d-5f93471cc94c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/u\/2\/embed?mid=16OxAN1tWmQe9Y2j9LMLH41ycZ_kt7_0&ehbc=2E312F\" width=\"100%\" height=\"800\"><\/iframe>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
     "a8e428ea-8dc8-481f-9e36-4074cb2c70c8",
-    "main"
+    "main",
+    "f373b003-647f-47a7-a34d-5f93471cc94c"
   ]
 }
