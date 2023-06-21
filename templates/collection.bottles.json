@@ -35,7 +35,7 @@
         "description": "<p>Mit unseren Travel Size-Flaschen kannst du das Gentle Gin Abenteuer <br\/>jederzeit und überallhin mitnehmen, sogar auf deinen Flügen - so steht <br\/>einem geschmackvollen Hoch über den Wolken nichts im Wege.<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "travel-size",
+        "collection": "",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
