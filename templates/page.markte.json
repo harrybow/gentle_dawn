@@ -19,12 +19,13 @@
         },
         "template--17903879848202__a8e428ea-8dc8-481f-9e36-4074cb2c70c8-16873717353e32578d-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Wochenmärkte",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/blogs\/news",
             "button_style_secondary_1": true,
             "button_label_2": "Supermärkte",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/blogs\/recipes",
             "button_style_secondary_2": true
           }
         }
@@ -41,7 +42,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
