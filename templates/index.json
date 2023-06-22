@@ -40,7 +40,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/GG_Woods_new_ca246bde-3450-46b3-be7f-fca365bdf81d.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -175,6 +175,21 @@
         "padding_bottom": 36
       }
     },
+    "d1e5a56d-8845-4b8b-83e3-3666e5ec3780": {
+      "type": "video",
+      "settings": {
+        "heading": "Gentle Gin wird stolz gefeatured von JERO",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/youtu.be\/c4Xem9eBVGE?t=52",
+        "cover_image": "shopify:\/\/shop_images\/Jero-Keine_Zeit.jpg",
+        "description": "JERO feat. Linez & Joe Welsing - Keine Zeit",
+        "full_width": false,
+        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -209,7 +224,7 @@
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-5f541abf-2222-4580-9242-293f60c35b1b",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -290,6 +305,7 @@
     "featured_collection",
     "087f1d5f-a6e2-4b15-ba0a-29036f68d0f6",
     "3d779ec5-d4fd-4184-88e7-a01f1df73ef5",
+    "d1e5a56d-8845-4b8b-83e3-3666e5ec3780",
     "collage",
     "video",
     "multicolumn"

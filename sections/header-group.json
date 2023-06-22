@@ -11,15 +11,33 @@
             "text": "Handmade in Berlin",
             "link": ""
           }
+        },
+        "233074dc-611e-4815-968e-7ab015d25288": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Neues Design",
+            "link": ""
+          }
+        },
+        "6b1df875-7d43-4b20-8e8f-621f0c991c03": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Versand nach DE kostenlos ab 100 €",
+            "link": "shopify:\/\/pages\/versandkosten"
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "233074dc-611e-4815-968e-7ab015d25288",
+        "6b1df875-7d43-4b20-8e8f-621f0c991c03"
       ],
       "settings": {
         "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
         "show_line_separator": true,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5
       }
     },

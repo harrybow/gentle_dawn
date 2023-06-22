@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "a8e428ea-8dc8-481f-9e36-4074cb2c70c8": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17903879848202__a8e428ea-8dc8-481f-9e36-4074cb2c70c8-16873717353e32578d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Märkte",
+            "heading_size": "h1"
+          }
+        },
+        "template--17903879848202__a8e428ea-8dc8-481f-9e36-4074cb2c70c8-16873717353e32578d-1": {
+          "type": "text",
+          "settings": {
+            "text": "Gentle Gin wird schon immer auf traditionellen Berliner Wochenmärkten angeboten. Wir freuen uns, wenn du uns an einem unserer Marktstände besuchst und uns und unseren Gentle Gin persönlich kennenlernst.",
+            "text_style": "subtitle"
+          }
+        },
+        "template--17903879848202__a8e428ea-8dc8-481f-9e36-4074cb2c70c8-16873717353e32578d-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Wochenmärkte",
+            "button_link_1": "shopify:\/\/blogs\/news",
+            "button_style_secondary_1": true,
+            "button_label_2": "Supermärkte",
+            "button_link_2": "shopify:\/\/blogs\/recipes",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17903879848202__a8e428ea-8dc8-481f-9e36-4074cb2c70c8-16873717353e32578d-0",
+        "template--17903879848202__a8e428ea-8dc8-481f-9e36-4074cb2c70c8-16873717353e32578d-1",
+        "template--17903879848202__a8e428ea-8dc8-481f-9e36-4074cb2c70c8-16873717353e32578d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/marktstand.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f373b003-647f-47a7-a34d-5f93471cc94c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/u\/2\/embed?mid=16OxAN1tWmQe9Y2j9LMLH41ycZ_kt7_0&ehbc=2E312F\" width=\"100%\" height=\"800\"><\/iframe>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "a8e428ea-8dc8-481f-9e36-4074cb2c70c8",
+    "main",
+    "f373b003-647f-47a7-a34d-5f93471cc94c"
+  ]
+}
