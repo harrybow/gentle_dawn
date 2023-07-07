@@ -1,0 +1,17 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "de"
+  },
+  "sections": {
+    "announcement-bar": {
+      "blocks": {
+        "announcement-bar-0": {
+          "settings": {
+            "text": "Handgemacht in Berlin. Kostenloser Versand ab 100 €"
+          }
+        }
+      }
+    }
+  }
+}
