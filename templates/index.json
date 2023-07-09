@@ -298,6 +298,61 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "cffd99b6-0a38-4a81-88dd-13e30f0d27cb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17865779839242__cffd99b6-0a38-4a81-88dd-13e30f0d27cb-16889156541bf30d5a-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/silhouetted-berlin-city-skyline-at-sunset.jpg",
+            "heading": "Gin aus Berlin",
+            "heading_size": "h2",
+            "subheading": "Gentle Gin wurde in Moabit (Ortsteil von Berlin-Mitte) gegründet und ist ein echtes Stadtkind mit dem Hang zum Abenteuer.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17865779839242__cffd99b6-0a38-4a81-88dd-13e30f0d27cb-16889156541bf30d5a-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/watching-the-sunset-over-berlin.jpg",
+            "heading": "Ausgewählte Zutaten",
+            "heading_size": "h2",
+            "subheading": "Als ursprünglicher Gewürzhändler hat sich der Gründer \"Stas\" schon immer auf Produkte hoher Qualität aus allen Ländern der Welt verstanden.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17865779839242__cffd99b6-0a38-4a81-88dd-13e30f0d27cb-16889156541bf30d5a-0",
+        "template--17865779839242__cffd99b6-0a38-4a81-88dd-13e30f0d27cb-16889156541bf30d5a-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -309,6 +364,7 @@
     "d1e5a56d-8845-4b8b-83e3-3666e5ec3780",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "cffd99b6-0a38-4a81-88dd-13e30f0d27cb"
   ]
 }
