@@ -64,7 +64,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Gentle Gin wird aus fein gebrautem, in kleinen Chargen handgemachtem <br\/>Alkohol aus lokalem deutschen Getreide hergestellt. Er wird von <br\/>Brenn­meister und Horti­kultur­experte Marcus O'Shea in einer <br\/>traditionellen handgeschmiedeten Kupferkessel doppelt destilliert. <br\/>Zwischen den Destillationen wird die Spirituose mit Hilfe des speziellen Gravitations­filters von Gentle Gin dreifach gefiltert. So entsteht ein <br\/>unglaublich weicher Basis­­alkohol, der sich perfekt mit unseren <br\/>hochwertigen botanischen Inhalts­stoffen vermischt, die direkt von <br\/>sorgfältig ausgewählten Land­wirten unseres Vertrauens stammen.<\/p>"
+            "text": "<p>Gentle Gin wird in Berlin aus handgemachtem <br\/>Alkohol aus lokalem deutschen Getreide hergestellt.  <br\/>Zwischen den Destillationen wird die Spirituose mit Hilfe des speziellen Gravitations­filters von Gentle Gin dreifach gefiltert. So entsteht ein <br\/>unglaublich weicher Basis­­alkohol, der sich perfekt mit unseren <br\/>hochwertigen botanischen Inhalts­stoffen vermischt, die direkt von <br\/>sorgfältig ausgewählten Land­wirten unseres Vertrauens stammen.<\/p>"
           }
         }
       },
@@ -210,7 +210,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "sets"
+            "collection": "travel-size"
           }
         }
       },
@@ -298,6 +298,61 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "cffd99b6-0a38-4a81-88dd-13e30f0d27cb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17865779839242__cffd99b6-0a38-4a81-88dd-13e30f0d27cb-16889156541bf30d5a-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/silhouetted-berlin-city-skyline-at-sunset.jpg",
+            "heading": "Gin aus Berlin",
+            "heading_size": "h2",
+            "subheading": "Gentle Gin wurde in Moabit (Ortsteil von Berlin-Mitte) gegründet und ist ein echtes Stadtkind mit dem Hang zum Abenteuer.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17865779839242__cffd99b6-0a38-4a81-88dd-13e30f0d27cb-16889156541bf30d5a-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/watching-the-sunset-over-berlin.jpg",
+            "heading": "Ausgewählte Zutaten",
+            "heading_size": "h2",
+            "subheading": "Als ursprünglicher Gewürzhändler hat sich der Gründer \"Stas\" schon immer auf Produkte hoher Qualität aus allen Ländern der Welt verstanden.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17865779839242__cffd99b6-0a38-4a81-88dd-13e30f0d27cb-16889156541bf30d5a-0",
+        "template--17865779839242__cffd99b6-0a38-4a81-88dd-13e30f0d27cb-16889156541bf30d5a-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Für schöne Momente"
+      }
     }
   },
   "order": [
@@ -309,6 +364,7 @@
     "d1e5a56d-8845-4b8b-83e3-3666e5ec3780",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "cffd99b6-0a38-4a81-88dd-13e30f0d27cb"
   ]
 }
