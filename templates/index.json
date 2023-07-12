@@ -353,6 +353,25 @@
         "show_text_below": true,
         "accessibility_info": "Für schöne Momente"
       }
+    },
+    "1689155678bce27d6a": {
+      "type": "apps",
+      "blocks": {
+        "c867721e-68d0-463c-b1df-9f80c01e4b23": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "c867721e-68d0-463c-b1df-9f80c01e4b23"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -365,6 +384,7 @@
     "collage",
     "video",
     "multicolumn",
-    "cffd99b6-0a38-4a81-88dd-13e30f0d27cb"
+    "cffd99b6-0a38-4a81-88dd-13e30f0d27cb",
+    "1689155678bce27d6a"
   ]
 }
