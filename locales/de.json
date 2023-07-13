@@ -7,8 +7,8 @@
       "login_form_password_placeholder": "Dein Passwort",
       "login_form_error": "Falsches Passwort!",
       "login_form_submit": "Eingeben",
-      "admin_link_html": "Bist du der Shop-Inhaber? <a href=\"\/admin\" class=\"link underlined-link\">Hier einloggen<\/a>",
-      "powered_by_shopify_html": "Dieser Shop wird unterstützt von {{ shopify }}"
+      "admin_link_html": "<a href=\"\/admin\" class=\"link underlined-link\">Admin-Login<\/a>",
+      "powered_by_shopify_html": "Handgemacht in Berlin."
     },
     "social": {
       "alt_text": {
