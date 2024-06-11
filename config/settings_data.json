@@ -139,6 +139,14 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "11158767069727357380": {
+        "type": "shopify:\/\/apps\/uptain-conversion-optimization\/blocks\/App-Embed\/914d1000-03ac-4d82-a914-352d8949cffa",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
