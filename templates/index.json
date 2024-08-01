@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -114,7 +123,6 @@
     },
     "087f1d5f-a6e2-4b15-ba0a-29036f68d0f6": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-0": {
           "type": "heading",
@@ -144,6 +152,7 @@
         "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-1",
         "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/dach_pink1.jpg",
         "height": "adapt",
@@ -178,6 +187,7 @@
     },
     "d1e5a56d-8845-4b8b-83e3-3666e5ec3780": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Gentle Gin wird stolz gefeatured von JERO",
         "heading_size": "h2",
@@ -282,7 +292,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -317,6 +326,7 @@
         "column2",
         "column3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
