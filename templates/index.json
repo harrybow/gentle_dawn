@@ -201,14 +201,6 @@
         "padding_bottom": 36
       }
     },
-    "34cf39fa-51e0-4293-b456-bcc5cd63ed20": {
-      "type": "instafeed",
-      "settings": {
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
-      }
-    },
     "83265369-2dec-4edb-9276-1ec064b74898": {
       "type": "rich-text",
       "blocks": {
@@ -344,6 +336,14 @@
         "padding_bottom": 36
       }
     },
+    "34cf39fa-51e0-4293-b456-bcc5cd63ed20": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
     "cffd99b6-0a38-4a81-88dd-13e30f0d27cb": {
       "type": "slideshow",
       "blocks": {
@@ -401,6 +401,27 @@
         "show_text_below": true,
         "accessibility_info": "Für schöne Momente"
       }
+    },
+    "1725365170f3b1df7f": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_VW6DwL": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_VW6DwL"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -410,11 +431,12 @@
     "087f1d5f-a6e2-4b15-ba0a-29036f68d0f6",
     "3d779ec5-d4fd-4184-88e7-a01f1df73ef5",
     "d1e5a56d-8845-4b8b-83e3-3666e5ec3780",
-    "34cf39fa-51e0-4293-b456-bcc5cd63ed20",
     "83265369-2dec-4edb-9276-1ec064b74898",
     "collage",
     "video",
     "multicolumn",
-    "cffd99b6-0a38-4a81-88dd-13e30f0d27cb"
+    "34cf39fa-51e0-4293-b456-bcc5cd63ed20",
+    "cffd99b6-0a38-4a81-88dd-13e30f0d27cb",
+    "1725365170f3b1df7f"
   ]
 }
