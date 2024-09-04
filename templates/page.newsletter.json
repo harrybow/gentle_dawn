@@ -15,9 +15,29 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "newsletter_gC3BYw": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_y8q3cG": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "email_form_y8q3cG"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "newsletter_gC3BYw"
   ]
 }
