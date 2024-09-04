@@ -11,24 +11,78 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
     },
-    "newsletter_gC3BYw": {
-      "type": "newsletter",
+    "rich_text_GdUNRc": {
+      "type": "rich-text",
       "blocks": {
-        "email_form_y8q3cG": {
-          "type": "email_form",
+        "text_qdrzRc": {
+          "type": "text",
           "settings": {
+            "text": ""
           }
         }
       },
       "block_order": [
-        "email_form_y8q3cG"
+        "text_qdrzRc"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "172545217184807272": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_YMKyC3": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "171851",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_YMKyC3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_8A3yQy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_9UU89U": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9UU89U"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -38,6 +92,8 @@
   },
   "order": [
     "main",
-    "newsletter_gC3BYw"
+    "rich_text_GdUNRc",
+    "172545217184807272",
+    "rich_text_8A3yQy"
   ]
 }
