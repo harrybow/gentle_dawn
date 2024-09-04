@@ -323,6 +323,12 @@
     "83265369-2dec-4edb-9276-1ec064b74898": {
       "type": "rich-text",
       "blocks": {
+        "text_zLTntr": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
         "template--17865779839242__83265369-2dec-4edb-9276-1ec064b74898-16892601526f3cbd22-2": {
           "type": "button",
           "settings": {
@@ -336,6 +342,7 @@
         }
       },
       "block_order": [
+        "text_zLTntr",
         "template--17865779839242__83265369-2dec-4edb-9276-1ec064b74898-16892601526f3cbd22-2"
       ],
       "settings": {
