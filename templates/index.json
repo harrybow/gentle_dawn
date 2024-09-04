@@ -201,33 +201,6 @@
         "padding_bottom": 36
       }
     },
-    "83265369-2dec-4edb-9276-1ec064b74898": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17865779839242__83265369-2dec-4edb-9276-1ec064b74898-16892601526f3cbd22-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Follow @gentlegin",
-            "button_link": "https:\/\/www.instagram.com\/gentlegin\/",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17865779839242__83265369-2dec-4edb-9276-1ec064b74898-16892601526f3cbd22-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
-      }
-    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -344,6 +317,33 @@
         "html_area": ""
       }
     },
+    "83265369-2dec-4edb-9276-1ec064b74898": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17865779839242__83265369-2dec-4edb-9276-1ec064b74898-16892601526f3cbd22-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Follow @gentlegin",
+            "button_link": "https:\/\/www.instagram.com\/gentlegin\/",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17865779839242__83265369-2dec-4edb-9276-1ec064b74898-16892601526f3cbd22-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
     "cffd99b6-0a38-4a81-88dd-13e30f0d27cb": {
       "type": "slideshow",
       "blocks": {
@@ -431,11 +431,11 @@
     "087f1d5f-a6e2-4b15-ba0a-29036f68d0f6",
     "3d779ec5-d4fd-4184-88e7-a01f1df73ef5",
     "d1e5a56d-8845-4b8b-83e3-3666e5ec3780",
-    "83265369-2dec-4edb-9276-1ec064b74898",
     "collage",
     "video",
     "multicolumn",
     "34cf39fa-51e0-4293-b456-bcc5cd63ed20",
+    "83265369-2dec-4edb-9276-1ec064b74898",
     "cffd99b6-0a38-4a81-88dd-13e30f0d27cb",
     "1725365170f3b1df7f"
   ]
