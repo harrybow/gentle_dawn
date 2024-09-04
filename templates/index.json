@@ -311,9 +311,12 @@
     },
     "34cf39fa-51e0-4293-b456-bcc5cd63ed20": {
       "type": "instafeed",
+      "custom_css": [
+
+      ],
       "settings": {
         "heading_size": 20,
-        "feed_width": 100,
+        "feed_width": 95,
         "html_area": ""
       }
     },
