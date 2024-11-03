@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -13,6 +22,13 @@
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "text_xUCxGd": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Taste: Floral & Peppery</strong>",
+            "text_style": "body"
           }
         },
         "aab53c8d-9763-4b25-8787-a1162ec46c69": {
@@ -62,7 +78,7 @@
           "settings": {
             "heading": "Handgemacht in Berlin",
             "icon": "heart",
-            "content": "<p>Gentle Gin wird mit Liebe und in kleinen Chargen von Hand produziert und abgefüllt.<\/p>",
+            "content": "<p>Gentle Gin wird mit Liebe und in kleinen Chargen von Hand produziert und abgefüllt.</p>",
             "page": ""
           }
         },
@@ -80,7 +96,7 @@
           "settings": {
             "heading": "Schnell & sicher zahlen",
             "icon": "lock",
-            "content": "<p>Wir unterstützen <strong>alle gängigen Zahlungsanbieter<\/strong> über unser <br\/>verschlüsseltes Zahlungsportal. Darunter auch <strong>Raten- und Rechnungskauf<\/strong> <br\/>über Klarna.<\/p>",
+            "content": "<p>Wir unterstützen <strong>alle gängigen Zahlungsanbieter</strong> über unser <br/>verschlüsseltes Zahlungsportal. Darunter auch <strong>Raten- und Rechnungskauf</strong> <br/>über Klarna.</p>",
             "page": ""
           }
         },
@@ -94,6 +110,7 @@
       "block_order": [
         "vendor",
         "title",
+        "text_xUCxGd",
         "aab53c8d-9763-4b25-8787-a1162ec46c69",
         "caption",
         "price",
@@ -142,7 +159,7 @@
         "1b35d947-660e-460d-aefc-502ad871b78c": {
           "type": "text",
           "settings": {
-            "text": "<p>Der Pink One eine Kreation, die deinen Gaumen mit blumigen Noten von Lavendel und Rosenblättern streichelt und mit den würzigen Tönen von rosa und schwarzem Pfeffer überrascht. Er ist ein Flirt aus blumigen und würzigen Aromen, ein Tanz zwischen Süße und Schärfe, ein Spiel von Licht und Schatten.<\/p><p>Die natürliche Färbung von Pink One ist ein echter Blickfang. Die helle, einladende Rosa-Farbe, angereichert mit den zarten Nuancen des Hibiskus, ist so einladend wie ein Sonnenuntergang im Sommer. Jedes Glas Pink One ist wie ein Gemälde, ein Kunstwerk, das deine Sinne belebt und dein Herz erfreut.<\/p>",
+            "text": "<p>Der Pink One eine Kreation, die deinen Gaumen mit blumigen Noten von Lavendel und Rosenblättern streichelt und mit den würzigen Tönen von rosa und schwarzem Pfeffer überrascht. Er ist ein Flirt aus blumigen und würzigen Aromen, ein Tanz zwischen Süße und Schärfe, ein Spiel von Licht und Schatten.</p><p>Die natürliche Färbung von Pink One ist ein echter Blickfang. Die helle, einladende Rosa-Farbe, angereichert mit den zarten Nuancen des Hibiskus, ist so einladend wie ein Sonnenuntergang im Sommer. Jedes Glas Pink One ist wie ein Gemälde, ein Kunstwerk, das deine Sinne belebt und dein Herz erfreut.</p>",
             "text_style": "body"
           }
         }
@@ -153,7 +170,7 @@
         "1b35d947-660e-460d-aefc-502ad871b78c"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_ce524127-5536-4ce9-9618-89195504599c.png",
+        "image": "shopify://shop_images/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_ce524127-5536-4ce9-9618-89195504599c.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -173,7 +190,7 @@
         "04c12c3c-38dc-4120-97c5-a590d054bb3b": {
           "type": "text",
           "settings": {
-            "text": "<p>Mit seinem zarten Wacholdergeschmack lässt er die anderen Aromen zur Geltung kommen und schafft ein Geschmackserlebnis, das einzigartig und unvergesslich ist. Er ist die perfekte Balance zwischen Zartheit und Kraft, zwischen Subtilität und Intensität.<\/p>"
+            "text": "<p>Mit seinem zarten Wacholdergeschmack lässt er die anderen Aromen zur Geltung kommen und schafft ein Geschmackserlebnis, das einzigartig und unvergesslich ist. Er ist die perfekte Balance zwischen Zartheit und Kraft, zwischen Subtilität und Intensität.</p>"
           }
         }
       },
@@ -205,7 +222,7 @@
         "1394b602-5e81-4346-b10e-91d49477843c": {
           "type": "text",
           "settings": {
-            "text": "<p>Genieße den Pink One pur, auf Eis oder in einem spritzigen Cocktail. Egal wie du ihn trinkst, du wirst das einzigartige Erlebnis spüren, das er bietet. Er ist nicht nur ein Gin, er ist eine Erfahrung, ein Abenteuer, eine Reise in die unbekannten Tiefen des Geschmacks.<\/p><p>Tauche ein in die Welt von Gentle Gin, wo das Unmögliche möglich wird und das Alltägliche außergewöhnlich wird. Probiere den Pink One und entdecke ein Geschmackserlebnis, das dich verzaubern wird. Willkommen in der Gentle Gin Welt!<\/p>",
+            "text": "<p>Genieße den Pink One pur, auf Eis oder in einem spritzigen Cocktail. Egal wie du ihn trinkst, du wirst das einzigartige Erlebnis spüren, das er bietet. Er ist nicht nur ein Gin, er ist eine Erfahrung, ein Abenteuer, eine Reise in die unbekannten Tiefen des Geschmacks.</p><p>Tauche ein in die Welt von Gentle Gin, wo das Unmögliche möglich wird und das Alltägliche außergewöhnlich wird. Probiere den Pink One und entdecke ein Geschmackserlebnis, das dich verzaubern wird. Willkommen in der Gentle Gin Welt!</p>",
             "text_style": "body"
           }
         }
@@ -215,7 +232,7 @@
         "1394b602-5e81-4346-b10e-91d49477843c"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_0cd64c47-9e70-46b3-b448-620c7bf36647.png",
+        "image": "shopify://shop_images/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_0cd64c47-9e70-46b3-b448-620c7bf36647.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
