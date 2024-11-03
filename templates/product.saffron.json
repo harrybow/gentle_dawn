@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -13,6 +22,13 @@
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "text_FAY3FX": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Taste: Sweet & Spicy</strong>",
+            "text_style": "body"
           }
         },
         "aab53c8d-9763-4b25-8787-a1162ec46c69": {
@@ -62,7 +78,7 @@
           "settings": {
             "heading": "Handgemacht in Berlin",
             "icon": "heart",
-            "content": "<p>Gentle Gin wird mit Liebe und in kleinen Chargen von Hand produziert und abgefüllt.<\/p>",
+            "content": "<p>Gentle Gin wird mit Liebe und in kleinen Chargen von Hand produziert und abgefüllt.</p>",
             "page": "versandkosten"
           }
         },
@@ -80,7 +96,7 @@
           "settings": {
             "heading": "Schnell & sicher zahlen",
             "icon": "lock",
-            "content": "<p>Wir unterstützen <strong>alle gängigen Zahlungsanbieter<\/strong> über unser <br\/>verschlüsseltes Zahlungsportal. Darunter auch <strong>Raten- und Rechnungskauf<\/strong> <br\/>über Klarna.<\/p>",
+            "content": "<p>Wir unterstützen <strong>alle gängigen Zahlungsanbieter</strong> über unser <br/>verschlüsseltes Zahlungsportal. Darunter auch <strong>Raten- und Rechnungskauf</strong> <br/>über Klarna.</p>",
             "page": ""
           }
         },
@@ -94,6 +110,7 @@
       "block_order": [
         "vendor",
         "title",
+        "text_FAY3FX",
         "aab53c8d-9763-4b25-8787-a1162ec46c69",
         "caption",
         "price",
@@ -142,7 +159,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dieser einzigartige Tropfen ist eine sinnliche Hommage an die farbenprächtigen Gewürzmärkte des Orients, verstrickt in einem Tango der Geschmacksexplosionen, der deine Sinne fesseln wird.<\/p><p>Saffron, unser edler Gin, ist kein gewöhnlicher Spirituose. Er ist eine Symphonie aus erlesenen Aromen und faszinierenden Geschmacksnuancen. Im Zentrum dieses Sinnesfeuerwerks steht das namensgebende Safran, das teuerste Gewürz der Welt, das mit seiner unverwechselbaren Note und dem strahlenden Goldton unseren Gin bereichert.<\/p>",
+            "text": "<p>Dieser einzigartige Tropfen ist eine sinnliche Hommage an die farbenprächtigen Gewürzmärkte des Orients, verstrickt in einem Tango der Geschmacksexplosionen, der deine Sinne fesseln wird.</p><p>Saffron, unser edler Gin, ist kein gewöhnlicher Spirituose. Er ist eine Symphonie aus erlesenen Aromen und faszinierenden Geschmacksnuancen. Im Zentrum dieses Sinnesfeuerwerks steht das namensgebende Safran, das teuerste Gewürz der Welt, das mit seiner unverwechselbaren Note und dem strahlenden Goldton unseren Gin bereichert.</p>",
             "text_style": "body"
           }
         }
@@ -153,7 +170,7 @@
         "image-with-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/genialitaeter_A_tumbler_glass_filled_with_a_vibrant_golden-yell_5a511ae5-69ef-441a-94eb-a18b28e609da.png",
+        "image": "shopify://shop_images/genialitaeter_A_tumbler_glass_filled_with_a_vibrant_golden-yell_5a511ae5-69ef-441a-94eb-a18b28e609da.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -173,7 +190,7 @@
         "20db5c6f-d3ec-47dd-a815-ce9e2217d633": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Geschmackstiefe des Saffron Gin ist außergewöhnlich. Fast schlierig, wie bei einem guten Whiskey, hat er eine Komplexität, die einzigartig ist. Dieser Gin lädt dich ein, ihn langsam zu kosten, ihn auf der Zunge zu rollen, während du seine reiche, ausgewogene Note genießt.<\/p>"
+            "text": "<p>Die Geschmackstiefe des Saffron Gin ist außergewöhnlich. Fast schlierig, wie bei einem guten Whiskey, hat er eine Komplexität, die einzigartig ist. Dieser Gin lädt dich ein, ihn langsam zu kosten, ihn auf der Zunge zu rollen, während du seine reiche, ausgewogene Note genießt.</p>"
           }
         }
       },
@@ -205,7 +222,7 @@
         "6702f697-1b07-41ad-a14e-b0f5e824ffea": {
           "type": "text",
           "settings": {
-            "text": "<p>Der Gentle Gin Saffron ist ein Augenschmaus in sich. Sein leuchtender goldener Farbton erinnert an die untergehende Sonne in einer exotischen Landschaft, an opulente Paläste und die unendlichen Weiten des Wüstensandes.<\/p><p>Ob du ihn pur genießt, um seine komplexe Vielfalt voll auszukosten, oder ob du ihn als Basis für einen kreativen Cocktail verwendest, Gentle Gin Saffron ist immer ein Erlebnis. Er ist ein Aufruf, mutig zu sein, Neues zu entdecken und sich der Freude am Genuss hinzugeben. Lass dich von Saffron entführen und entdecke den Geschmack des Unbekannten. Willkommen in der Gentle Gin Welt!<\/p>",
+            "text": "<p>Der Gentle Gin Saffron ist ein Augenschmaus in sich. Sein leuchtender goldener Farbton erinnert an die untergehende Sonne in einer exotischen Landschaft, an opulente Paläste und die unendlichen Weiten des Wüstensandes.</p><p>Ob du ihn pur genießt, um seine komplexe Vielfalt voll auszukosten, oder ob du ihn als Basis für einen kreativen Cocktail verwendest, Gentle Gin Saffron ist immer ein Erlebnis. Er ist ein Aufruf, mutig zu sein, Neues zu entdecken und sich der Freude am Genuss hinzugeben. Lass dich von Saffron entführen und entdecke den Geschmack des Unbekannten. Willkommen in der Gentle Gin Welt!</p>",
             "text_style": "body"
           }
         }
@@ -215,7 +232,7 @@
         "6702f697-1b07-41ad-a14e-b0f5e824ffea"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/A_tumbler_glass_filled_with_a_vibrant_golden-yell_70b6eaaf-477d-477e-be5c-8056fbdf3947.png",
+        "image": "shopify://shop_images/A_tumbler_glass_filled_with_a_vibrant_golden-yell_70b6eaaf-477d-477e-be5c-8056fbdf3947.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
