@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -13,6 +22,13 @@
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "text_dH87CD": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Taste: Fruity & Dry</strong>",
+            "text_style": "body"
           }
         },
         "aab53c8d-9763-4b25-8787-a1162ec46c69": {
@@ -62,7 +78,7 @@
           "settings": {
             "heading": "Handgemacht in Berlin",
             "icon": "heart",
-            "content": "<p>Gentle Gin wird mit Liebe und in kleinen Chargen von Hand produziert und abgefüllt.<\/p>",
+            "content": "<p>Gentle Gin wird mit Liebe und in kleinen Chargen von Hand produziert und abgefüllt.</p>",
             "page": "versandkosten"
           }
         },
@@ -80,7 +96,7 @@
           "settings": {
             "heading": "Schnell & sicher zahlen",
             "icon": "lock",
-            "content": "<p>Wir unterstützen <strong>alle gängigen Zahlungsanbieter<\/strong> über unser <br\/>verschlüsseltes Zahlungsportal. Darunter auch <strong>Raten- und Rechnungskauf<\/strong> <br\/>über Klarna.<\/p>",
+            "content": "<p>Wir unterstützen <strong>alle gängigen Zahlungsanbieter</strong> über unser <br/>verschlüsseltes Zahlungsportal. Darunter auch <strong>Raten- und Rechnungskauf</strong> <br/>über Klarna.</p>",
             "page": ""
           }
         },
@@ -94,6 +110,7 @@
       "block_order": [
         "vendor",
         "title",
+        "text_dH87CD",
         "aab53c8d-9763-4b25-8787-a1162ec46c69",
         "caption",
         "price",
@@ -142,7 +159,7 @@
         "0dceb4f1-bf93-4580-a65e-cb41b49db3c5": {
           "type": "text",
           "settings": {
-            "text": "<p>Bist du bereit für ein Getränk, das nicht nur deinen Gaumen, sondern auch deine Augen betört? Dann triff unseren Gentle Gin Tea Blue, ein Gin-Erlebnis, das sich vor deinen Augen entfaltet.<\/p><p>Tea Blue ist ein magischer Trank in strahlendem Saphirblau. Seine faszinierende Farbe verdankt er dem exotischen indonesischen Schmetterlingstee, auch bekannt als \"blaue Klitorie\". Aber die Magie endet hier nicht. Gib etwas Tonic oder Säure hinzu, und schau zu, wie sich die blaue Farbe in ein verträumtes Violett verwandelt. Es ist ein zauberhaftes Schauspiel, eine Farbexplosion, die jeden Cocktailabend in ein unvergessliches Erlebnis verwandelt.<\/p>",
+            "text": "<p>Bist du bereit für ein Getränk, das nicht nur deinen Gaumen, sondern auch deine Augen betört? Dann triff unseren Gentle Gin Tea Blue, ein Gin-Erlebnis, das sich vor deinen Augen entfaltet.</p><p>Tea Blue ist ein magischer Trank in strahlendem Saphirblau. Seine faszinierende Farbe verdankt er dem exotischen indonesischen Schmetterlingstee, auch bekannt als \"blaue Klitorie\". Aber die Magie endet hier nicht. Gib etwas Tonic oder Säure hinzu, und schau zu, wie sich die blaue Farbe in ein verträumtes Violett verwandelt. Es ist ein zauberhaftes Schauspiel, eine Farbexplosion, die jeden Cocktailabend in ein unvergessliches Erlebnis verwandelt.</p>",
             "text_style": "body"
           }
         }
@@ -153,7 +170,7 @@
         "0dceb4f1-bf93-4580-a65e-cb41b49db3c5"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/A_tall_highball_glass_filled_halfway_with_the_sap_09bd0baf-5a1e-40c5-921e-586738f9f63b.png",
+        "image": "shopify://shop_images/A_tall_highball_glass_filled_halfway_with_the_sap_09bd0baf-5a1e-40c5-921e-586738f9f63b.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -173,7 +190,7 @@
         "6da49d3b-6e4e-4a00-987d-54e6e4cfcde6": {
           "type": "text",
           "settings": {
-            "text": "<p>Mit seinem sanft süßen Geschmack und dem dezenten Wacholderaroma ist er ein Hochgenuss für den Gaumen. Er ist ein perfektes Gleichgewicht zwischen Zartheit und Stärke, zwischen Süße und Bitterkeit. Mit jedem Schluck, mit jedem Farbwechsel entführt er dich in eine Welt der Wunder und Fantasie.<\/p>"
+            "text": "<p>Mit seinem sanft süßen Geschmack und dem dezenten Wacholderaroma ist er ein Hochgenuss für den Gaumen. Er ist ein perfektes Gleichgewicht zwischen Zartheit und Stärke, zwischen Süße und Bitterkeit. Mit jedem Schluck, mit jedem Farbwechsel entführt er dich in eine Welt der Wunder und Fantasie.</p>"
           }
         }
       },
@@ -205,7 +222,7 @@
         "4d2529eb-841c-4cb4-9a60-ebbc15bb507e": {
           "type": "text",
           "settings": {
-            "text": "<p>Lass dich und deine Freunde verzaubern von der Magie des Gentle Gin Tea Blue. Probiere ihn pur, auf Eis oder in einem verführerischen Cocktail. Genieße das Spektakel, wie er seine Farbe verändert, und tauche ein in ein Geschmackserlebnis, das du so noch nie erlebt hast. Willkommen in der Gentle Gin Welt!<\/p>",
+            "text": "<p>Lass dich und deine Freunde verzaubern von der Magie des Gentle Gin Tea Blue. Probiere ihn pur, auf Eis oder in einem verführerischen Cocktail. Genieße das Spektakel, wie er seine Farbe verändert, und tauche ein in ein Geschmackserlebnis, das du so noch nie erlebt hast. Willkommen in der Gentle Gin Welt!</p>",
             "text_style": "body"
           }
         }
@@ -215,7 +232,7 @@
         "4d2529eb-841c-4cb4-9a60-ebbc15bb507e"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/A_tall_highball_glass_filled_halfway_with_the_sap_07ba293b-d9d6-4def-b963-7f205cc0fe5f.png",
+        "image": "shopify://shop_images/A_tall_highball_glass_filled_halfway_with_the_sap_07ba293b-d9d6-4def-b963-7f205cc0fe5f.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
