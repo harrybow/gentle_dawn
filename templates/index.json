@@ -73,7 +73,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Gentle Gin wird in Berlin aus handgemachtem <br/>Alkohol aus lokalem deutschen Getreide hergestellt.  <br/>Zwischen den Destillationen wird die Spirituose mit Hilfe des speziellen Gravitations­filters von Gentle Gin dreifach gefiltert. So entsteht ein <br/>unglaublich weicher Basis­­alkohol, der sich perfekt mit unseren <br/>hochwertigen botanischen Inhalts­stoffen vermischt, die direkt von <br/>sorgfältig ausgewählten Land­wirten unseres Vertrauens stammen.</p>"
+            "text": "<p>Bei Gentle Gin geht es nicht nur um den Geschmack, es geht um das Erlebnis. Es geht um den Hauch von Abenteuer in jeder Flasche, die Faszination für die Gewürze dieser Welt und die Lust, unkonventionell zu sein.<br/></p><p>Jede von Hand gefertigte, in kleinen Mengen destillierte Flasche ist ein Tribut an unsere Leidenschaft für das Handwerk und die Aromen der Welt.<br/></p>"
           }
         }
       },
@@ -96,10 +96,10 @@
 
       ],
       "settings": {
-        "title": "Unsere Besten",
+        "title": "Unsere Hauptakteure",
         "heading_size": "h2",
         "description": "",
-        "show_description": false,
+        "show_description": true,
         "description_style": "body",
         "collection": "bottles",
         "products_to_show": 4,
