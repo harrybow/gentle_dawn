@@ -47,7 +47,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/Saffron_Startseite.svg",
+        "image": "shopify://shop_images/saffron.svg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
