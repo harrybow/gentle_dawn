@@ -92,9 +92,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Unsere Hauptakteure",
         "heading_size": "h2",
@@ -170,6 +168,7 @@
     },
     "3d779ec5-d4fd-4184-88e7-a01f1df73ef5": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Stirred or shaken (Gentle Gin Rezepte)",
         "heading_size": "h1",
@@ -207,7 +206,7 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": "bottles"
+            "collection": "travel-size"
           }
         },
         "product": {
@@ -311,9 +310,7 @@
     },
     "34cf39fa-51e0-4293-b456-bcc5cd63ed20": {
       "type": "instafeed",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "heading_size": 20,
         "feed_width": 95,
@@ -422,6 +419,7 @@
             "title_color": "",
             "alignment": "center",
             "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }
