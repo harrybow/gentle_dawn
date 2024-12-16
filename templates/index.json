@@ -47,9 +47,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/titel_xmas.png",
+        "image": "shopify://shop_images/titel.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
