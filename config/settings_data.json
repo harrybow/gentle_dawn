@@ -1,17 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/GG_Logotype.png",
+    "logo": "shopify://shop_images/GG_Logotype.png",
     "logo_width": 150,
-    "favicon": "shopify:\/\/shop_images\/hat_icon_b5f2cdf6-dca9-46c7-ba66-5f0b6f63d7ff.png",
+    "favicon": "shopify://shop_images/hat_icon_b5f2cdf6-dca9-46c7-ba66-5f0b6f63d7ff.png",
     "type_header_font": "din_next_n9",
     "heading_scale": 110,
     "type_body_font": "avenir_next_n4",
@@ -108,14 +108,14 @@
     "sale_badge_color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
     "sold_out_badge_color_scheme": "scheme-5f541abf-2222-4580-9242-293f60c35b1b",
     "brand_headline": "Keep it gentle!",
-    "brand_description": "<p>Handgemacht in Berlin 💚<\/p>",
+    "brand_description": "<p>Handgemacht in Berlin 💚</p>",
     "social_facebook_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/gentlegin\/",
+    "social_instagram_link": "https://www.instagram.com/gentlegin/",
     "social_youtube_link": "",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@gentlegin",
+    "social_tiktok_link": "https://www.tiktok.com/@gentlegin",
     "social_twitter_link": "",
     "social_snapchat_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/gentlegin\/",
+    "social_pinterest_link": "https://www.pinterest.com/gentlegin/",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
@@ -126,7 +126,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "bottles",
-    "checkout_logo_image": "shopify:\/\/shop_images\/GG_Logotype.png",
+    "checkout_logo_image": "shopify://shop_images/GG_Logotype.png",
     "checkout_body_background_color": "#d8e2dd",
     "checkout_sidebar_background_color": "#274637",
     "checkout_accent_color": "#182b22",
@@ -145,21 +145,17 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "11158767069727357380": {
-        "type": "shopify:\/\/apps\/uptain-conversion-optimization\/blocks\/App-Embed\/914d1000-03ac-4d82-a914-352d8949cffa",
+        "type": "shopify://apps/uptain-conversion-optimization/blocks/App-Embed/914d1000-03ac-4d82-a914-352d8949cffa",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11532412952436166569": {
-        "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-inject\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -209,10 +205,10 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#502c14",
-          "background_gradient": "radial-gradient(rgba(130, 72, 33, 1), rgba(80, 44, 20, 1) 100%)",
+          "background": "#cca58b",
+          "background_gradient": "radial-gradient(rgba(221, 184, 160, 1), rgba(80, 44, 20, 1) 100%)",
           "text": "#ffffff",
-          "button": "#502c14",
+          "button": "#dfcabc",
           "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
