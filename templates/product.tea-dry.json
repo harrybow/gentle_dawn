@@ -21,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_U34TLc": {
           "type": "text",
@@ -47,8 +46,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -58,8 +56,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -70,8 +67,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
@@ -152,7 +148,7 @@
         "e9269606-e9aa-4c7f-83be-aa45ebfc2e30": {
           "type": "heading",
           "settings": {
-            "heading": "Britisch & Deutsch. Trotzdem lecker",
+            "heading": "Raffinierte Tradition",
             "heading_size": "h1"
           }
         },
