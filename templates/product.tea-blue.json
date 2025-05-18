@@ -199,7 +199,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
+        "color_scheme": "inverse",
         "full_width": true,
         "padding_top": 8,
         "padding_bottom": 12
@@ -228,7 +228,7 @@
         "4d2529eb-841c-4cb4-9a60-ebbc15bb507e"
       ],
       "settings": {
-        "image": "shopify://shop_images/A_tall_highball_glass_filled_halfway_with_the_sap_07ba293b-d9d6-4def-b963-7f205cc0fe5f.png",
+        "image": "shopify://shop_images/Studio_Stellar_Opening_x_Gentle_Gin_36.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -244,6 +244,7 @@
     },
     "9931fee3-d3bb-4acc-87a4-59d9f59460bd": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "For The Perfect Drink",
         "heading_size": "h2",
