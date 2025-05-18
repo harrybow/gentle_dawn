@@ -21,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_dH87CD": {
           "type": "text",
@@ -47,8 +46,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -58,8 +56,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -70,8 +67,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
@@ -170,7 +166,7 @@
         "0dceb4f1-bf93-4580-a65e-cb41b49db3c5"
       ],
       "settings": {
-        "image": "shopify://shop_images/A_tall_highball_glass_filled_halfway_with_the_sap_09bd0baf-5a1e-40c5-921e-586738f9f63b.png",
+        "image": "shopify://shop_images/20220206_GentleGin_Shoot_645_1.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -178,7 +174,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "inverse",
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 32

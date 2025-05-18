@@ -183,7 +183,7 @@
       },
       "inverse": {
         "settings": {
-          "background": "#2179cf",
+          "background": "#5b86b1",
           "background_gradient": "radial-gradient(rgba(33, 121, 207, 1), rgba(13, 80, 146, 1) 100%)",
           "text": "#ffffff",
           "button": "#2179cf",
