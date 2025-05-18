@@ -360,7 +360,7 @@
             "image": "shopify://shop_images/silhouetted-berlin-city-skyline-at-sunset.jpg",
             "heading": "Gin aus Berlin",
             "heading_size": "h2",
-            "subheading": "Gentle Gin wurde in Moabit (Ortsteil von Berlin-Mitte) gegründet und ist ein echtes Stadtkind mit dem Hang zum Abenteuer.",
+            "subheading": "Gentle Gin wurde in Berlin-Kreuzberg gegründet. Wie Berlin selbst ist auch Gentle Gin ein Melting Pot für verschiedenste kulturelle und kulinarische Einflüsse.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -375,7 +375,7 @@
         "template--17865779839242__cffd99b6-0a38-4a81-88dd-13e30f0d27cb-16889156541bf30d5a-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/watching-the-sunset-over-berlin.jpg",
+            "image": "shopify://shop_images/maria-0QVLGqBSqlU-unsplash.jpg",
             "heading": "Ausgewählte Zutaten",
             "heading_size": "h2",
             "subheading": "Als ursprünglicher Gewürzhändler hat sich der Gründer \"Stani\" schon immer auf Produkte hoher Qualität aus allen Ländern der Welt verstanden.",
@@ -386,7 +386,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
+            "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
             "text_alignment_mobile": "center"
           }
         }
@@ -417,11 +417,11 @@
           "settings": {
             "title": "",
             "title_color": "",
-            "title_size": 0,
+            "title_size_v2": 0,
             "alignment": "center",
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "margin_sides": 0,
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
             "show_instagram_link": false,
             "link_alignment": "left",
             "link_color": "#000000",
