@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -25,7 +34,7 @@
           "disabled": true,
           "settings": {
             "text": "Versand nach DE kostenlos ab 100 €",
-            "link": "shopify:\/\/pages\/versandkosten"
+            "link": "shopify://pages/versandkosten"
           }
         }
       },
@@ -37,6 +46,7 @@
       "settings": {
         "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
         "show_line_separator": true,
+        "show_social": false,
         "auto_rotate": true,
         "change_slides_speed": 5
       }
@@ -50,6 +60,7 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-5f541abf-2222-4580-9242-293f60c35b1b",
+        "menu_color_scheme": "",
         "enable_country_selector": false,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
