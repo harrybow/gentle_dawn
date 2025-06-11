@@ -260,10 +260,11 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify://shop_images/Gentle_Gin_clean_low_res_by_Tribunalova_14.jpg",
+            "title": "Geschenk-Set",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Geschenk-Set",
+            "link": "shopify://collections/sets"
           }
         },
         "column2": {
