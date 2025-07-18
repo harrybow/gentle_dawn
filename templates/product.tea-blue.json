@@ -148,14 +148,14 @@
         "c998a453-70fb-4db6-ad9c-01137aa4c0be": {
           "type": "heading",
           "settings": {
-            "heading": "Dein blaues Wunder",
+            "heading": "Signature Drink",
             "heading_size": "h1"
           }
         },
         "0dceb4f1-bf93-4580-a65e-cb41b49db3c5": {
           "type": "text",
           "settings": {
-            "text": "<p>Bist du bereit für ein Getränk, das nicht nur deinen Gaumen, sondern auch deine Augen betört? Dann triff unseren Gentle Gin Tea Blue, ein Gin-Erlebnis, das sich vor deinen Augen entfaltet.</p><p>Tea Blue ist ein magischer Trank in strahlendem Saphirblau. Seine faszinierende Farbe verdankt er dem exotischen indonesischen Schmetterlingstee, auch bekannt als \"blaue Klitorie\". Aber die Magie endet hier nicht. Gib etwas Tonic oder Säure hinzu, und schau zu, wie sich die blaue Farbe in ein verträumtes Violett verwandelt. Es ist ein zauberhaftes Schauspiel, eine Farbexplosion, die jeden Cocktailabend in ein unvergessliches Erlebnis verwandelt.</p>",
+            "text": "<p>Der Gentle Gin Tea Blue ist nicht nur ein Drink – er ist ein Erlebnis. Die Farbe, der Geschmack, das Schauspiel mit Tonic – das willst du nicht verstecken, sondern zelebrieren. Der Tea Blue Signature Drink “Magic Tonic” tut genau das.</p><p><strong>Zutaten:</strong></p><ul><li>4 cl Gentle Gin Tea Blue</li><li>6–8 cl Indian oder Floral Tonic Water</li><li>Eiswürfel</li><li>Garnitur: Zitronenscheibe oder essbare Blüten</li></ul><p><strong>Zubereitung:</strong><br/>Den Gin ins Glas auf Eis geben, Tonic langsam dazugießen und beobachten, wie aus Blau Violett wird. Kurz innehalten. Dann genießen.</p>",
             "text_style": "body"
           }
         }
@@ -166,7 +166,7 @@
         "0dceb4f1-bf93-4580-a65e-cb41b49db3c5"
       ],
       "settings": {
-        "image": "shopify://shop_images/20220206_GentleGin_Shoot_645_1.jpg",
+        "image": "shopify://shop_images/5_eefda1aa-81fc-41dc-870c-9119b1aea866.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -193,6 +193,7 @@
       "block_order": [
         "6da49d3b-6e4e-4a00-987d-54e6e4cfcde6"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 2rem; font-weight: bold;}"
       ],
@@ -218,7 +219,7 @@
         "4d2529eb-841c-4cb4-9a60-ebbc15bb507e": {
           "type": "text",
           "settings": {
-            "text": "<p>Lass dich und deine Freunde verzaubern von der Magie des Gentle Gin Tea Blue. Probiere ihn pur, auf Eis oder in einem verführerischen Cocktail. Genieße das Spektakel, wie er seine Farbe verändert, und tauche ein in ein Geschmackserlebnis, das du so noch nie erlebt hast. Willkommen in der Gentle Gin Welt!</p>",
+            "text": "<p>Lass dich und deine Freunde verzaubern von der Magie des Gentle Gin Tea Blue. Probiere ihn pur, auf Eis oder in einem verführerischen Cocktail. Genieße das Spektakel, wie er seine Farbe verändert, und tauche ein in ein Geschmackserlebnis, das du so noch nie erlebt hast. </p>",
             "text_style": "body"
           }
         }
@@ -227,8 +228,9 @@
         "8f6705b9-a5fc-49b3-87b9-f8fcde0f8a07",
         "4d2529eb-841c-4cb4-9a60-ebbc15bb507e"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Studio_Stellar_Opening_x_Gentle_Gin_36.jpg",
+        "image": "shopify://shop_images/5_eefda1aa-81fc-41dc-870c-9119b1aea866.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
