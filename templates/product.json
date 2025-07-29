@@ -116,6 +116,28 @@
         "padding_bottom": 12
       }
     },
+    "1750200706659d9e3c": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_J4TWtV": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_J4TWtV"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -147,6 +169,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/genialitaeter_A_tumbler_glass_filled_with_a_vibrant_golden-yell_5a511ae5-69ef-441a-94eb-a18b28e609da.png",
         "height": "small",
@@ -175,6 +198,7 @@
       "block_order": [
         "20db5c6f-d3ec-47dd-a815-ce9e2217d633"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 2rem; font-weight: bold;}"
       ],
@@ -209,6 +233,7 @@
         "94469141-742a-4c7a-b5fc-b4706cdc93ae",
         "6702f697-1b07-41ad-a14e-b0f5e824ffea"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/A_tumbler_glass_filled_with_a_vibrant_golden-yell_70b6eaaf-477d-477e-be5c-8056fbdf3947.png",
         "height": "small",
@@ -255,6 +280,7 @@
         "e9269606-e9aa-4c7f-83be-aa45ebfc2e30",
         "c1732577-aaf1-4d77-ba70-926fc4a2d6d5"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/A_crystal-clear_coupe_glass_filled_with_Gentle_Gi_16c63de8-6315-446c-be73-ad0a714fa26a.png",
         "height": "small",
@@ -283,6 +309,7 @@
       "block_order": [
         "template--17865780330762__3079054c-ab61-4065-ba0b-10125f454fa6-16871693853d33d18b-1"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 2rem; font-weight: bold;}"
       ],
@@ -317,6 +344,7 @@
         "325252cd-aad8-403a-80e7-b9874466d3d4",
         "3fed0c37-2bb7-41bb-95dd-9e4ead3f8052"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/A_crystal-clear_coupe_glass_filled_with_Gentle_Gi_293d9496-1ca7-4cf2-9c9b-6b1f7c9e7278.png",
         "height": "small",
@@ -363,6 +391,7 @@
         "c998a453-70fb-4db6-ad9c-01137aa4c0be",
         "0dceb4f1-bf93-4580-a65e-cb41b49db3c5"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/A_tall_highball_glass_filled_halfway_with_the_sap_09bd0baf-5a1e-40c5-921e-586738f9f63b.png",
         "height": "small",
@@ -391,6 +420,7 @@
       "block_order": [
         "6da49d3b-6e4e-4a00-987d-54e6e4cfcde6"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 2rem; font-weight: bold;}"
       ],
@@ -425,6 +455,7 @@
         "8f6705b9-a5fc-49b3-87b9-f8fcde0f8a07",
         "4d2529eb-841c-4cb4-9a60-ebbc15bb507e"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/A_tall_highball_glass_filled_halfway_with_the_sap_07ba293b-d9d6-4def-b963-7f205cc0fe5f.png",
         "height": "small",
@@ -471,6 +502,7 @@
         "72cdd942-92b9-485b-bd49-cacaa8970be9",
         "1b35d947-660e-460d-aefc-502ad871b78c"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_ce524127-5536-4ce9-9618-89195504599c.png",
         "height": "small",
@@ -499,6 +531,7 @@
       "block_order": [
         "04c12c3c-38dc-4120-97c5-a590d054bb3b"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 2rem; font-weight: bold;}"
       ],
@@ -533,6 +566,7 @@
         "fedfd483-b7bd-4e21-ab7d-fd2950943b5f",
         "1394b602-5e81-4346-b10e-91d49477843c"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_0cd64c47-9e70-46b3-b448-620c7bf36647.png",
         "height": "small",
@@ -592,6 +626,7 @@
     },
     "9931fee3-d3bb-4acc-87a4-59d9f59460bd": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "For The Perfect Drink",
         "heading_size": "h2",
@@ -611,40 +646,18 @@
       "type": "related-products",
       "settings": {
         "heading": "The other ones",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "heading_size": "h1",
+        "products_to_show": 3,
+        "columns_desktop": 3,
         "color_scheme": "scheme-5f541abf-2222-4580-9242-293f60c35b1b",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "1750200706659d9e3c": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_J4TWtV": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_J4TWtV"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
