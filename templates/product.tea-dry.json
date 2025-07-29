@@ -244,6 +244,7 @@
     },
     "9931fee3-d3bb-4acc-87a4-59d9f59460bd": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "For The Perfect Drink",
         "heading_size": "h2",
