@@ -140,7 +140,7 @@
         "b880fe15-04ca-4053-8652-0035fd76e30e": {
           "type": "caption",
           "settings": {
-            "caption": "Gentle Gin Saffron",
+            "caption": "Gentle Gin Pink One",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -148,14 +148,14 @@
         "72cdd942-92b9-485b-bd49-cacaa8970be9": {
           "type": "heading",
           "settings": {
-            "heading": "Ein fantastischer Sonnenuntergang",
+            "heading": "Signature Drink",
             "heading_size": "h1"
           }
         },
         "1b35d947-660e-460d-aefc-502ad871b78c": {
           "type": "text",
           "settings": {
-            "text": "<p>Der Pink One eine Kreation, die deinen Gaumen mit blumigen Noten von Lavendel und Rosenblättern streichelt und mit den würzigen Tönen von rosa und schwarzem Pfeffer überrascht. Er ist ein Flirt aus blumigen und würzigen Aromen, ein Tanz zwischen Süße und Schärfe, ein Spiel von Licht und Schatten.</p><p>Die natürliche Färbung von Pink One ist ein echter Blickfang. Die helle, einladende Rosa-Farbe, angereichert mit den zarten Nuancen des Hibiskus, ist so einladend wie ein Sonnenuntergang im Sommer. Jedes Glas Pink One ist wie ein Gemälde, ein Kunstwerk, das deine Sinne belebt und dein Herz erfreut.</p>",
+            "text": "<p>Der Gentle Gin Pink One ist pure Lebensfreude im Glas – verspielt, blumig, charmant. Der Signature Drink „Pink Spritz“ bringt das Blumige und Frische in perfekte Balance. </p><p><strong>Zutaten:</strong></p><ul><li>4 cl Gentle Gin Pink One</li><li>Schuss Elderflower Sirup und Dry Tonic oder Elderflower Tonic</li><li>Eiswürfel</li><li>Garnitur: Blüten oder frische Minze</li></ul><p><strong>Zubereitung:</strong><br/>Gin und Tonic auf Eis ins Glas geben, leicht verrühren. Mit Minze oder Blüten garnieren. Den Sommer einfangen. Dann genießen.</p>",
             "text_style": "body"
           }
         }
@@ -166,7 +166,7 @@
         "1b35d947-660e-460d-aefc-502ad871b78c"
       ],
       "settings": {
-        "image": "shopify://shop_images/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_ce524127-5536-4ce9-9618-89195504599c.png",
+        "image": "shopify://shop_images/8.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -193,6 +193,7 @@
       "block_order": [
         "04c12c3c-38dc-4120-97c5-a590d054bb3b"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 2rem; font-weight: bold;}"
       ],
@@ -227,6 +228,7 @@
         "fedfd483-b7bd-4e21-ab7d-fd2950943b5f",
         "1394b602-5e81-4346-b10e-91d49477843c"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/A_vintage_goblet_glass_holding_a_blush_pink_gin_a_0cd64c47-9e70-46b3-b448-620c7bf36647.png",
         "height": "small",
