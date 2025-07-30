@@ -164,14 +164,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Sinnlich & betörend",
+            "heading": "Signature Drink: Golden GnT",
             "heading_size": "h1"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dieser einzigartige Tropfen ist eine sinnliche Hommage an die farbenprächtigen Gewürzmärkte des Orients, verstrickt in einem Tango der Geschmacksexplosionen, der deine Sinne fesseln wird.</p><p>Saffron, unser edler Gin, ist kein gewöhnlicher Spirituose. Er ist eine Symphonie aus erlesenen Aromen und faszinierenden Geschmacksnuancen. Im Zentrum dieses Sinnesfeuerwerks steht das namensgebende Safran, das teuerste Gewürz der Welt, das mit seiner unverwechselbaren Note und dem strahlenden Goldton unseren Gin bereichert.</p>",
+            "text": "<p>Der Gentle Gin Saffron ist intensiv, würzig und ein Hauch Exotik. Der Signature Drink „Golden G&T“ hebt die warmen Noten des Safrans auf eine neue Ebene.</p><p><strong>Zutaten:</strong></p><ul><li>4 cl Gentle Gin Saffron</li><li>Indian Tonic Water</li><li>Eiswürfel</li><li>Garnitur: Orangenzeste oder/und ein paar Fäden Safran</li></ul><p><strong>Zubereitung:</strong><br/>Den Gin auf Eis geben, mit Tonic aufgießen und die goldene Farbe bewundern. Mit Orangenzeste verfeinern. Einen Moment Wärme spüren. Dann genießen.</p>",
             "text_style": "body"
           }
         }
@@ -182,7 +182,7 @@
         "image-with-text-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/genialitaeter_A_tumbler_glass_filled_with_a_vibrant_golden-yell_5a511ae5-69ef-441a-94eb-a18b28e609da.png",
+        "image": "shopify://shop_images/19.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -209,6 +209,7 @@
       "block_order": [
         "20db5c6f-d3ec-47dd-a815-ce9e2217d633"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 2rem; font-weight: bold;}"
       ],
@@ -243,6 +244,7 @@
         "94469141-742a-4c7a-b5fc-b4706cdc93ae",
         "6702f697-1b07-41ad-a14e-b0f5e824ffea"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/A_tumbler_glass_filled_with_a_vibrant_golden-yell_70b6eaaf-477d-477e-be5c-8056fbdf3947.png",
         "height": "small",
@@ -260,6 +262,7 @@
     },
     "9931fee3-d3bb-4acc-87a4-59d9f59460bd": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "For The Perfect Drink",
         "heading_size": "h2",
