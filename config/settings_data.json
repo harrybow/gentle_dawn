@@ -205,8 +205,8 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#cca58b",
-          "background_gradient": "radial-gradient(rgba(221, 184, 160, 1), rgba(80, 44, 20, 1) 100%)",
+          "background": "#60422eff",
+          "background_gradient": "",
           "text": "#ffffff",
           "button": "#dfcabc",
           "button_label": "#ffffff",
