@@ -69,13 +69,13 @@
           "type": "description",
           "settings": {}
         },
-        "collapsible-row-1": {
+        "collapsible_tab_HDb98R": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Handgemacht in Berlin",
             "icon": "heart",
             "content": "<p>Gentle Gin wird mit Liebe und in kleinen Chargen von Hand produziert und abgefüllt.</p>",
-            "page": "versandkosten"
+            "page": ""
           }
         },
         "37ec0522-ee9c-4436-a63b-00e9290c104b": {
@@ -114,7 +114,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible-row-1",
+        "collapsible_tab_HDb98R",
         "37ec0522-ee9c-4436-a63b-00e9290c104b",
         "a68fccd4-07e0-4043-b9dd-c152b0617bad",
         "share"
