@@ -148,14 +148,14 @@
         "e9269606-e9aa-4c7f-83be-aa45ebfc2e30": {
           "type": "heading",
           "settings": {
-            "heading": "Raffinierte Tradition",
+            "heading": "Signature Drink: Herbal Tonic",
             "heading_size": "h1"
           }
         },
         "c1732577-aaf1-4d77-ba70-926fc4a2d6d5": {
           "type": "text",
           "settings": {
-            "text": "<p>Dieser ungewöhnliche Gin ist die Begegnung von alt und neu, Ost und West, Tradition und Innovation. Er vereint den Charakter von Earl Grey und Pai Mu Dan Tee mit dem zarten Hauch von Zitronenverbene und Orangen. Aber halt, da ist noch mehr! Eine Prise Angelikawurzel gibt dem Ganzen die nötige Tiefe und das gewisse Extra. Der Geschmack? Jedes Schlückchen ist wie ein Kurzurlaub in einem englischen Teegarten – raffiniert, erfrischend und unerwartet.</p><p>Der Gentle Gin Tea Dry ist kein Gin von der Stange. Er ist ein Abenteuer, eine Entdeckungsreise, eine Herausforderung an das, was du von Gin erwartest. Und genau so sollte es sein. Warum? Weil wir bei Gentle Gin glauben, dass die besten Dinge aus dem Unbekannten entstehen, aus dem Mut, das Vertraute zu verlassen und das Unerwartete zu entdecken.</p>",
+            "text": "<p>Der Gentle Gin Tea Dry ist dein perfekter Begleiter für klassische Momente mit Anspruch. Trocken, feinherb und mit einer eleganten Tiefe. Der Tea Dry Signature Drink „Herbal Tonic“ bringt seine Botanicals zum Strahlen.</p><p><strong>Zutaten:</strong></p><ul><li>4 cl Gentle Gin Tea Dry</li><li>Mediterranean Tonic Water</li><li>Eiswürfel</li><li>Garnitur: Rosmarinzweig oder Zitronenzeste</li></ul><p><strong>Zubereitung:</strong><br/>Den Gin ins Glas auf Eis geben, Tonic dazugiessen und den Duft der Kräuter genießen. Einmal umrühren. Dann zurücklehnen und Klarheit schmecken.</p>",
             "text_style": "body"
           }
         }
@@ -166,7 +166,7 @@
         "c1732577-aaf1-4d77-ba70-926fc4a2d6d5"
       ],
       "settings": {
-        "image": "shopify://shop_images/A_crystal-clear_coupe_glass_filled_with_Gentle_Gi_16c63de8-6315-446c-be73-ad0a714fa26a.png",
+        "image": "shopify://shop_images/3_6610f6d0-edce-437c-8cde-f433e08db0d4.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -193,6 +193,7 @@
       "block_order": [
         "template--17865780330762__3079054c-ab61-4065-ba0b-10125f454fa6-16871693853d33d18b-1"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 2rem; font-weight: bold;}"
       ],
@@ -227,6 +228,7 @@
         "325252cd-aad8-403a-80e7-b9874466d3d4",
         "3fed0c37-2bb7-41bb-95dd-9e4ead3f8052"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/A_crystal-clear_coupe_glass_filled_with_Gentle_Gi_293d9496-1ca7-4cf2-9c9b-6b1f7c9e7278.png",
         "height": "small",
