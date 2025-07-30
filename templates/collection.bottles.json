@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -30,9 +39,9 @@
     "23996d9e-ce85-4fc5-ba71-2cce6378f97a": {
       "type": "featured-collection",
       "settings": {
-        "title": "Travel Size (100 ml)",
+        "title": "Unsere Minis (100 ml)",
         "heading_size": "h2",
-        "description": "<p>Mit unseren Travel Size-Flaschen kannst du das Gentle Gin Abenteuer <br\/>jederzeit und überallhin mitnehmen, sogar auf deinen Flügen - so steht <br\/>einem geschmackvollen Hoch über den Wolken nichts im Wege.<\/p>",
+        "description": "<p>Mit unseren Travel Size-Flaschen kannst du das Gentle Gin Abenteuer <br/>jederzeit und überallhin mitnehmen, sogar auf deinen Flügen - so steht <br/>einem geschmackvollen Hoch über den Wolken nichts im Wege.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "travel-size",
