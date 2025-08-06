@@ -16,6 +16,7 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Handmade in Berlin",
             "link": ""
@@ -23,9 +24,8 @@
         },
         "233074dc-611e-4815-968e-7ab015d25288": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Neues Design",
+            "text": "Nur für kurze Zeit! -25% auf alles (außer Sets) mit dem Code: SUMMER25",
             "link": ""
           }
         },
