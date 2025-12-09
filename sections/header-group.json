@@ -22,24 +22,10 @@
             "link": ""
           }
         },
-        "announcement_pqnWmN": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
-        "announcement_J8TLfE": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
         "233074dc-611e-4815-968e-7ab015d25288": {
           "type": "announcement",
           "settings": {
-            "text": "Unser Weihnachtsgeschenk an euch: -25% auf alle Flaschen (außer Sets) mit dem Code \"MERRY20\"",
+            "text": "Unser Weihnachtsgeschenk an euch: -20% auf alle Flaschen (außer Sets) mit dem Code \"MERRY20\"",
             "link": ""
           }
         },
@@ -54,8 +40,6 @@
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_pqnWmN",
-        "announcement_J8TLfE",
         "233074dc-611e-4815-968e-7ab015d25288",
         "6b1df875-7d43-4b20-8e8f-621f0c991c03"
       ],
