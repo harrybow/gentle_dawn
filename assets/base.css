@@ -3365,7 +3365,8 @@ details-disclosure > details {
     --sparkle: url('./sparkle.gif');
   }
 }
-/* Dawn rating stars color */
+/* Gold stars only (Dawn rating block) */
 .rating-star {
-  --color-rating-star: 227, 165, 0;
+  --color-foreground: 227, 165, 0; /* #E3A500 */
 }
+
