@@ -3365,10 +3365,7 @@ details-disclosure > details {
     --sparkle: url('./sparkle.gif');
   }
 }
-/* Loox / Rating stars color */
-.rating svg,
-.loox-rating svg,
-.loox-rating .loox-icon {
-  fill: #E3A500 !important;
-  color: #E3A500 !important;
+/* Dawn rating stars color */
+.rating-star {
+  --color-rating-star: 227, 165, 0;
 }
