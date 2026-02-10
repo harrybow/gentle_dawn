@@ -23,6 +23,17 @@
           "type": "title",
           "settings": {}
         },
+        "rating_6RfiA7": {
+          "type": "rating",
+          "settings": {}
+        },
+        "text_QCVUAd": {
+          "type": "text",
+          "settings": {
+            "text": "Finde deinen Favoriten – mit unserer 3er-Genussreise.",
+            "text_style": "body"
+          }
+        },
         "aab53c8d-9763-4b25-8787-a1162ec46c69": {
           "type": "text",
           "settings": {
@@ -90,6 +101,8 @@
       "block_order": [
         "vendor",
         "title",
+        "rating_6RfiA7",
+        "text_QCVUAd",
         "aab53c8d-9763-4b25-8787-a1162ec46c69",
         "caption",
         "price",
