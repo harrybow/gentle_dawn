@@ -301,7 +301,7 @@ function send(){
   document.getElementById("fn").value=f(net);document.getElementById("fv").value=f(vat);
   document.getElementById("fsh").value=sh>0?f(sh):"kostenlos";document.getElementById("fg").value=f(gr);
   document.getElementById("fo").value=ls.map(function(l){return l.isFl?(l.n+" "+l.s+" x "+l.qty+" Fl. = "+f(l.sub)):(l.n+" "+l.s+" x "+l.qty+" VE ["+l.tier+"] = "+f(l.sub));}).join(" | ");
-  fetch("https://api.web3forms.com/submit",{method:"POST",body:new FormData(document.getElementById("frm")),headers:{"Accept":"application/json"}})
+  fetch("https://formspree.io/f/meergeby",{method:"POST",body:new FormData(document.getElementById("frm")),headers:{"Accept":"application/json"}})
   .then(function(r){
     if(r.ok){ showSuccess(co,ls,gr); }
     else{ alert("Fehler beim Senden. Bitte schreib uns an info@gentlegin.de"); }
