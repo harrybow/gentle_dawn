@@ -3374,13 +3374,3 @@ details-disclosure > details {
   background-position: center;
   background-repeat: no-repeat;
 }
-#shopify-section-template--17865779839242__featured_collection .gradient,
-#shopify-section-template--17865779839242__featured_collection .collection,
-#shopify-section-template--17865779839242__featured_collection .card__inner,
-#shopify-section-template--17865779839242__featured_collection .card,
-#shopify-section-template--17865779839242__featured_collection .card-wrapper,
-#shopify-section-template--17865779839242__featured_collection .card__media,
-#shopify-section-template--17865779839242__featured_collection .media,
-#shopify-section-template--17865779839242__featured_collection .media > img {
-  background: transparent !important;
-}
