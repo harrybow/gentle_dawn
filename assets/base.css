@@ -3368,5 +3368,15 @@ details-disclosure > details {
 /* Gold stars only (Dawn rating block) */
 .rating-star {
   --color-foreground: 227, 165, 0; /* #E3A500 */
+}#shopify-section-template--17865779839242__featured_collection {
+  background-image: url("https://cdn.shopify.com/s/files/1/2260/9061/files/ChatGPT_Image_2._Juni_2026_12_47_39.png?v=1780398992");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#shopify-section-template--17865779839242__featured_collection .gradient,
+#shopify-section-template--17865779839242__featured_collection .collection {
+  background: transparent;
 }
 
