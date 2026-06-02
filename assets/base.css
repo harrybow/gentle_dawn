@@ -3378,7 +3378,8 @@ details-disclosure > details {
 #shopify-section-template--17865779839242__featured_collection .gradient,
 #shopify-section-template--17865779839242__featured_collection .collection {
   background: transparent;
-}.card__inner,
+}
+.card__inner,
 .card,
 .card-wrapper {
   background: transparent !important;
