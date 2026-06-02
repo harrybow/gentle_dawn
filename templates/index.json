@@ -106,7 +106,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -116,53 +116,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "087f1d5f-a6e2-4b15-ba0a-29036f68d0f6": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Neues Design",
-            "heading_size": "h1"
-          }
-        },
-        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Unsere Website strahlt in neuem Glanz und schon ganz bald könnt ihr euch über ein neues Aussehen unserer Flaschen freuen!</p>",
-            "text_style": "body"
-          }
-        },
-        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-0",
-        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-1",
-        "template--17865779839242__087f1d5f-a6e2-4b15-ba0a-29036f68d0f6-16846183713154c713-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/dach_pink1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "bottom",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -444,7 +397,6 @@
     "image_banner",
     "rich_text",
     "featured_collection",
-    "087f1d5f-a6e2-4b15-ba0a-29036f68d0f6",
     "3d779ec5-d4fd-4184-88e7-a01f1df73ef5",
     "d1e5a56d-8845-4b8b-83e3-3666e5ec3780",
     "collage",
