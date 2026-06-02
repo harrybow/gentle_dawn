@@ -3376,11 +3376,9 @@ details-disclosure > details {
 }
 
 #shopify-section-template--17865779839242__featured_collection .gradient,
-#shopify-section-template--17865779839242__featured_collection .collection {
-  background: transparent;
-}
-.card__inner,
-.card,
-.card-wrapper {
+#shopify-section-template--17865779839242__featured_collection .collection,
+#shopify-section-template--17865779839242__featured_collection .card__inner,
+#shopify-section-template--17865779839242__featured_collection .card,
+#shopify-section-template--17865779839242__featured_collection .card-wrapper {
   background: transparent !important;
 }
