@@ -23,6 +23,10 @@
           "type": "title",
           "settings": {}
         },
+        "rating_7DeDUU": {
+          "type": "rating",
+          "settings": {}
+        },
         "text_dH87CD": {
           "type": "text",
           "settings": {
@@ -106,6 +110,7 @@
       "block_order": [
         "vendor",
         "title",
+        "rating_7DeDUU",
         "text_dH87CD",
         "aab53c8d-9763-4b25-8787-a1162ec46c69",
         "caption",
@@ -286,6 +291,8 @@
         "loox_reviews_loox_dynamic_section_Ef9bJw": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
             "only_photos": false,
             "aggregated": true,
             "limit": 20,
