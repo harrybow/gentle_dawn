@@ -3374,3 +3374,8 @@ details-disclosure > details {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+#shopify-section-template--17865779839242__featured_collection .gradient,
+#shopify-section-template--17865779839242__featured_collection .collection {
+  background: transparent;
+}
