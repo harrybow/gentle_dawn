@@ -3464,7 +3464,9 @@ details-disclosure > details {
 .collection {
   background: #FAF2E8 !important;
 }
-.template-collection main,
-.template-collection .gradient {
-  background: #FAF2E8 !important;
+.product-grid .card,
+.product-grid .card__inner,
+.product-grid .card__media,
+.product-grid .media {
+  background: transparent !important;
 }
