@@ -92,7 +92,12 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        ".product-grid .grid__item:nth-child(1) {transform: translateX(140px);}",
+        ".product-grid .grid__item:nth-child(2) {transform: translateX(45px);}",
+        ".product-grid .grid__item:nth-child(3) {transform: translateX(-45px);}",
+        ".product-grid .grid__item:nth-child(4) {transform: translateX(-140px);}"
+      ],
       "settings": {
         "title": "Unsere Hauptakteure",
         "heading_size": "h2",
