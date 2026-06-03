@@ -3379,14 +3379,27 @@ details-disclosure > details {
 #shopify-section-template--17865779839242__featured_collection .collection {
   background: transparent;
 }.collection__title,.collection__description,.card__information,.card-information{text-align:center}
-.collection__description p{margin:0}
-.collection__description p:first-child{font-size:1.4rem;margin-bottom:8px}
+
+.collection__title .title{
+  font-size:4.8rem!important;
+  line-height:1.1!important;
+}
+
+.collection__description p{
+  margin:0
+}
+
+.collection__description p:first-child{
+  font-size:1.8rem;
+  margin-bottom:8px
+}
+
 .collection__title{
   margin-bottom:0!important;
 }
 
 .collection__description{
-  margin-top:0px!important;
+  margin-top:-8px!important;
 }
 .card-information>.price,.price{display:flex;justify-content:center;text-align:center}
 .price__container{margin:0 auto;text-align:center}
