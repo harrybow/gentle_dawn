@@ -3447,7 +3447,6 @@ details-disclosure > details {
 .banner__buttons .button {
   padding: 18px 36px !important;
   font-size: 1.8rem !important;
-  
 }
 
 .collection-hero {
@@ -3462,7 +3461,9 @@ details-disclosure > details {
   padding-top: 0 !important;
   background: #FAF2E8 !important;
 }
-
+.collection {
+  background: #FAF2E8 !important;
+}
 .product-grid .card,
 .product-grid .card__inner,
 .product-grid .card__media,
