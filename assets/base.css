@@ -3385,5 +3385,5 @@ details-disclosure > details {
 .price__container{margin:0 auto;text-align:center}
 .product-grid .grid__item:nth-child(1){transform:translateX(85px)}
 .product-grid .grid__item:nth-child(2){transform:translateX(35px)}
-.product-grid .grid__item:nth-child(3){transform:translateX(-25px)}
+.product-grid .grid__item:nth-child(3){transform:translateX(-35px)}
 .product-grid .grid__item:nth-child(4){transform:translateX(-85px)}
