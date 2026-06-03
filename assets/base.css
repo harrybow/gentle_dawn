@@ -3450,8 +3450,7 @@ details-disclosure > details {
 }
 body.template-collection .collection-hero,
 body.template-collection .collection-hero__inner,
-body.template-collection .product-grid-container,
-body.template-collection .main-page-title {
+body.template-collection .product-grid-container {
   background: #FAF2E8 !important;
 }
 
