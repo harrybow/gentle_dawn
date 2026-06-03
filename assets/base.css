@@ -3435,8 +3435,9 @@ details-disclosure > details {
   margin-bottom: 20px !important;
 }
 
-.banner__text {
-  max-width: 360px !important;
+.banner__text{
+  font-size:1.8rem;
+  line-height:1.5;
 }
 
 .banner__buttons {
