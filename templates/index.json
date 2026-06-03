@@ -92,7 +92,12 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        ".card__information {text-align: center;}",
+        ".card-information {text-align: center;}",
+        ".price {justify-content: center;}",
+        ".price__container {justify-content: center;}"
+      ],
       "settings": {
         "title": "Unsere Hauptakteure",
         "heading_size": "h2",
@@ -116,40 +121,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "3d779ec5-d4fd-4184-88e7-a01f1df73ef5": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "heading": "Stirred or shaken (Gentle Gin Rezepte)",
-        "heading_size": "h1",
-        "blog": "recipes",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "scheme-5f541abf-2222-4580-9242-293f60c35b1b",
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "d1e5a56d-8845-4b8b-83e3-3666e5ec3780": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "Gentle Gin wird stolz gefeatured von JERO",
-        "heading_size": "h2",
-        "enable_video_looping": false,
-        "video_url": "https://youtu.be/c4Xem9eBVGE?t=52",
-        "cover_image": "shopify://shop_images/Jero-Keine_Zeit.jpg",
-        "description": "JERO feat. Linez & Joe Welsing - Keine Zeit",
-        "full_width": false,
-        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -397,8 +368,6 @@
     "image_banner",
     "rich_text",
     "featured_collection",
-    "3d779ec5-d4fd-4184-88e7-a01f1df73ef5",
-    "d1e5a56d-8845-4b8b-83e3-3666e5ec3780",
     "collage",
     "video",
     "multicolumn",
