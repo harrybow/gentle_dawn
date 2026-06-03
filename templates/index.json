@@ -96,13 +96,16 @@
         ".card__information {text-align: center;}",
         ".card-information {text-align: center;}",
         ".price {justify-content: center;}",
-        ".price__container {justify-content: center;}"
+        ".price__container {justify-content: center;}",
+        ".collection__title,.collection__description {text-align: center;}",
+        ".collection__description p {margin: 0;}",
+        ".collection__description p:first-child {font-size: 1.4rem; margin-bottom: 8px;}"
       ],
       "settings": {
         "title": "Unsere Hauptakteure",
         "heading_size": "h2",
-        "description": "",
-        "show_description": true,
+        "description": "<p><strong>Vier Persönlichkeiten. Vier Geschmackswelten</strong></p>",
+        "show_description": false,
         "description_style": "body",
         "collection": "bottles",
         "products_to_show": 4,
