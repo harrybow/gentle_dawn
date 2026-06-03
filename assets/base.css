@@ -3384,6 +3384,6 @@ details-disclosure > details {
 .card-information>.price,.price{display:flex;justify-content:center;text-align:center}
 .price__container{margin:0 auto;text-align:center}
 .product-grid .grid__item:nth-child(1) .card-wrapper{transform:translateX(155px)!important}
-.product-grid .grid__item:nth-child(2) .card-wrapper{transform:translateX(45px)!important}
-.product-grid .grid__item:nth-child(3) .card-wrapper{transform:translateX(-45px)!important}
+.product-grid .grid__item:nth-child(2) .card-wrapper{transform:translateX(55px)!important}
+.product-grid .grid__item:nth-child(3) .card-wrapper{transform:translateX(-55px)!important}
 .product-grid .grid__item:nth-child(4) .card-wrapper{transform:translateX(-155px)!important}
