@@ -23,9 +23,20 @@
           "type": "title",
           "settings": {}
         },
-        "rating_7DeDUU": {
-          "type": "rating",
-          "settings": {}
+        "loox_reviews_loox_rating_HgTgJY": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
         },
         "text_dH87CD": {
           "type": "text",
@@ -110,7 +121,7 @@
       "block_order": [
         "vendor",
         "title",
-        "rating_7DeDUU",
+        "loox_reviews_loox_rating_HgTgJY",
         "text_dH87CD",
         "aab53c8d-9763-4b25-8787-a1162ec46c69",
         "caption",
