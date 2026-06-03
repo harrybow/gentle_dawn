@@ -3383,3 +3383,14 @@ details-disclosure > details {
 .collection__description p:first-child{font-size:1.4rem;margin-bottom:8px}
 .card-information>.price,.price{display:flex;justify-content:center;text-align:center}
 .price__container{margin:0 auto;text-align:center}
+.product-grid{
+  display:flex!important;
+  justify-content:center!important;
+  gap:35px!important;
+}
+
+.product-grid .grid__item{
+  width:220px!important;
+  max-width:220px!important;
+  flex:0 0 220px!important;
+}
