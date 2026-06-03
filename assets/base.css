@@ -3378,4 +3378,11 @@ details-disclosure > details {
 #shopify-section-template--17865779839242__featured_collection .gradient,
 #shopify-section-template--17865779839242__featured_collection .collection {
   background: transparent;
-}
+}.collection__title,.collection__description,.card__information,.card-information{text-align:center}
+.collection__description p{margin:0}
+.collection__description p:first-child{font-size:1.4rem;margin-bottom:8px}
+.price,.price__container{justify-content:center}
+.product-grid .grid__item:nth-child(1){transform:translateX(25px)}
+.product-grid .grid__item:nth-child(2){transform:translateX(10px)}
+.product-grid .grid__item:nth-child(3){transform:translateX(-10px)}
+.product-grid .grid__item:nth-child(4){transform:translateX(-15px)}
