@@ -3383,3 +3383,12 @@ details-disclosure > details {
 .collection__description p:first-child{font-size:1.4rem;margin-bottom:8px}
 .card-information>.price,.price{display:flex;justify-content:center;text-align:center}
 .price__container{margin:0 auto;text-align:center}
+#shopify-section-template--17865779839242__featured_collection .product-grid{
+  max-width:1100px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#shopify-section-template--17865779839242__featured_collection .product-grid .grid__item{
+  transform:none!important;
+}
