@@ -3448,48 +3448,16 @@ details-disclosure > details {
   padding: 18px 36px !important;
   font-size: 1.8rem !important;
 }
-/* COLLECTION PAGES */
-
 body.template-collection .collection-hero,
 body.template-collection .collection-hero__inner,
 body.template-collection .product-grid-container,
-body.template-collection .collection,
-body.template-collection .product-grid,
-body.template-collection .grid__item,
-body.template-collection .card-wrapper,
-body.template-collection .card,
-body.template-collection .card__inner,
-body.template-collection .card__media,
-body.template-collection .media {
+body.template-collection .main-page-title {
   background: #FAF2E8 !important;
 }
 
-/* Alle Bild-Container transparent */
-body.template-collection .card__inner,
-body.template-collection .card__media,
-body.template-collection .media {
+body.template-collection .product-grid .card,
+body.template-collection .product-grid .card__inner,
+body.template-collection .product-grid .card__media,
+body.template-collection .product-grid .media {
   background: transparent !important;
-}
-
-/* Abstand zwischen Beschreibung und Produkten entfernen */
-body.template-collection .collection-hero {
-  margin-bottom: 0 !important;
-}
-
-body.template-collection .collection-hero__inner {
-  padding-bottom: 0 !important;
-}
-
-body.template-collection .product-grid-container {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-/* Dawn Theme Grid */
-body.template-collection .product-grid {
-  background: #FAF2E8 !important;
-}
-
-body.template-collection .product-grid .grid__item {
-  background: #FAF2E8 !important;
 }
