@@ -3386,7 +3386,7 @@ details-disclosure > details {
 }
 
 .collection__description{
-  margin-top:-8px!important;
+  margin-top:0px!important;
 }
 .card-information>.price,.price{display:flex;justify-content:center;text-align:center}
 .price__container{margin:0 auto;text-align:center}
