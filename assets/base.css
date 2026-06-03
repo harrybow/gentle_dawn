@@ -3383,7 +3383,3 @@ details-disclosure > details {
 .collection__description p:first-child{font-size:1.4rem;margin-bottom:8px}
 .card-information>.price,.price{display:flex;justify-content:center;text-align:center}
 .price__container{margin:0 auto;text-align:center}
-.product-grid .grid__item:nth-child(1){transform:translateX(140px)}
-.product-grid .grid__item:nth-child(2){transform:translateX(45px)}
-.product-grid .grid__item:nth-child(3){transform:translateX(-45px)}
-.product-grid .grid__item:nth-child(4){transform:translateX(-145px)}
