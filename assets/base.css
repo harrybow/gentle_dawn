@@ -3383,7 +3383,7 @@ details-disclosure > details {
 .collection__description p:first-child{font-size:1.4rem;margin-bottom:8px}
 .card-information>.price,.price{display:flex;justify-content:center;text-align:center}
 .price__container{margin:0 auto;text-align:center}
-.product-grid .grid__item:nth-child(1) .card-wrapper{transform:translateX(140px)!important}
+.product-grid .grid__item:nth-child(1) .card-wrapper{transform:translateX(145px)!important}
 .product-grid .grid__item:nth-child(2) .card-wrapper{transform:translateX(45px)!important}
 .product-grid .grid__item:nth-child(3) .card-wrapper{transform:translateX(-45px)!important}
-.product-grid .grid__item:nth-child(4) .card-wrapper{transform:translateX(-140px)!important}
+.product-grid .grid__item:nth-child(4) .card-wrapper{transform:translateX(-145px)!important}
