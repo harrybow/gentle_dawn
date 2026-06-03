@@ -3447,17 +3447,21 @@ details-disclosure > details {
 .banner__buttons .button {
   padding: 18px 36px !important;
   font-size: 1.8rem !important;
-  
-}.collection-hero,
-.collection-hero__inner,
-.product-grid-container,
-.main-page-title {
+
+}.collection-hero {
+  margin-bottom: 0 !important;
+}
+
+.collection-hero__inner {
+  padding-bottom: 0 !important;
+}
+
+.product-grid-container {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
   background: #FAF2E8 !important;
 }
 
-.product-grid .card,
-.product-grid .card__inner,
-.product-grid .card__media,
-.product-grid .media {
-  background: transparent !important;
+.collection {
+  background: #FAF2E8 !important;
 }
