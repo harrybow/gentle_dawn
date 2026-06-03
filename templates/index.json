@@ -92,15 +92,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [
-        ".card__information {text-align: center;}",
-        ".card-information {text-align: center;}",
-        ".price {justify-content: center;}",
-        ".price__container {justify-content: center;}",
-        ".collection__title,.collection__description {text-align: center;}",
-        ".collection__description p {margin: 0;}",
-        ".collection__description p:first-child {font-size: 1.4rem; margin-bottom: 8px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Unsere Hauptakteure",
         "heading_size": "h2",
