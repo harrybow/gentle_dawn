@@ -3394,4 +3394,6 @@ details-disclosure > details {
 }
 .product-grid .grid__item:nth-child(4) {
   transform: translateX(-140px);
+}.grid__item{
+  border:5px solid blue!important;
 }
