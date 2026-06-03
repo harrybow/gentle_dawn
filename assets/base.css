@@ -3414,4 +3414,33 @@ details-disclosure > details {
   .product-grid .grid__item .card-wrapper{
     transform:none!important;
   }
+}/* HERO BANNER */
+
+.banner__box {
+  background: rgba(255, 255, 255, 0.65) !important;
+  box-shadow: none !important;
+  padding: 3rem 4rem !important;
+}
+
+.banner__heading {
+  font-size: 5.4rem !important;
+  line-height: 1.05 !important;
+  margin-bottom: 1rem !important;
+}
+
+.banner__text {
+  margin-top: 0 !important;
+  margin-bottom: 2rem !important;
+}
+
+.banner__text p {
+  font-size: 1.8rem !important;
+}
+
+.banner__buttons {
+  margin-top: 0 !important;
+}
+
+.banner__buttons .button {
+  min-width: 260px;
 }
