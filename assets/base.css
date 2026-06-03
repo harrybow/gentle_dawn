@@ -3422,7 +3422,7 @@ details-disclosure > details {
 .banner__box {
   max-width: 420px !important;
   width: 420px !important;
-  margin-left: 20px !important;
+  margin-left: 0px !important;
   padding: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
