@@ -3460,3 +3460,9 @@ body:has(.collection-hero__title) .product-grid .card__media,
 body:has(.collection-hero__title) .product-grid .media {
   background: transparent !important;
 }
+body:has(.collection-hero__title) .product-grid-container,
+body:has(.collection-hero__title) #product-grid,
+body:has(.collection-hero__title) .product-grid,
+body:has(.collection-hero__title) .grid {
+  background: #FAF2E8 !important;
+}
