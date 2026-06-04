@@ -3482,8 +3482,8 @@ body:has(.collection-hero__title) .product-grid .media {
   }
 
   .banner__text {
-    max-width: 115px !important;
-    font-size: 1.7rem !important;
+    max-width: 120px !important;
+    font-size: 1.9rem !important;
     line-height: 1.35 !important;
     margin-bottom: 1.8rem !important;
   }
