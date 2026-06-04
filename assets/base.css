@@ -3454,7 +3454,6 @@ body:has(.collection-hero__title) .product-grid-container,
 body:has(.collection-hero__title) .main-page-title {
   background: #FAF2E8 !important;
 }
-
 body:has(.collection-hero__title) .product-grid .card,
 body:has(.collection-hero__title) .product-grid .card__inner,
 body:has(.collection-hero__title) .product-grid .card__media,
