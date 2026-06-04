@@ -3497,6 +3497,6 @@ body:has(.collection-hero__title) .product-grid .media {
     width: auto !important;
     min-width: 240px !important;
     padding: 1.4rem 2.4rem !important;
-    font-size: 1.6rem !important;
+    font-size: 1rem !important;
   }
 }
