@@ -3475,14 +3475,14 @@ body:has(.collection-hero__title) .product-grid .media {
   }
 
   .banner__heading {
-    max-width: 160px !important;
+    max-width: 200px !important;
     font-size: 3.4rem !important;
     line-height: 0.95 !important;
     margin-bottom: 1.4rem !important;
   }
 
   .banner__text {
-    max-width: 300px !important;
+    max-width: 180px !important;
     font-size: 1.7rem !important;
     line-height: 1.35 !important;
     margin-bottom: 1.8rem !important;
