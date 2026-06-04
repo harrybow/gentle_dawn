@@ -3462,3 +3462,33 @@ body.template-collection .collection,
 body.template-collection .grid__item {
   background: #FAF2E8 !important;
 }
+.collection-hero.color-background-1,
+.collection-hero.color-background-1.gradient,
+.collection-hero.color-background-1 .collection-hero__inner,
+.collection-hero.color-background-1 .collection-hero__text-wrapper {
+  background: #FAF2E8 !important;
+}
+
+.product-grid-container {
+  background: #FAF2E8 !important;
+}
+
+.product-grid {
+  background: #FAF2E8 !important;
+}
+
+.product-grid .card,
+.product-grid .card__inner,
+.product-grid .card__content,
+.product-grid .card__media,
+.product-grid .media {
+  background: #FAF2E8 !important;
+}
+
+.product-grid .media img {
+  background: transparent !important;
+}
+
+.collection {
+  background: #FAF2E8 !important;
+}
