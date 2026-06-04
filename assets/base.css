@@ -3476,7 +3476,7 @@ body:has(.collection-hero__title) .product-grid .media {
 
   .banner__heading {
     max-width: 320px !important;
-    font-size: 4.2rem !important;
+    font-size: 3.4rem !important;
     line-height: 0.95 !important;
     margin-bottom: 1.4rem !important;
   }
@@ -3497,6 +3497,6 @@ body:has(.collection-hero__title) .product-grid .media {
     width: auto !important;
     min-width: 240px !important;
     padding: 1.4rem 2.4rem !important;
-    font-size: 1rem !important;
+    font-size: 1.6rem !important;
   }
 }
