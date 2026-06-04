@@ -33,7 +33,7 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Versand nach DE kostenlos ab 100 €",
+            "text": "Versand nach DE kostenlos ab 60 €",
             "link": "shopify://pages/versandkosten"
           }
         }
