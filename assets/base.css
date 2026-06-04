@@ -3448,16 +3448,16 @@ details-disclosure > details {
   padding: 18px 36px !important;
   font-size: 1.8rem !important;
 }
-body.template-collection .collection-hero.color-background-1,
-body.template-collection .collection-hero.color-background-1.gradient,
-body.template-collection .collection-hero__inner,
-body.template-collection .collection-hero__text-wrapper,
-body.template-collection .product-grid-container,
-body.template-collection .collection {
+.collection-hero,
+.collection-hero__inner,
+.product-grid-container,
+.main-page-title {
   background: #FAF2E8 !important;
 }
-body.template-collection .product-grid .card__inner,
-body.template-collection .product-grid .card__media,
-body.template-collection .product-grid .media {
-  background: #FAF2E8 !important;
+
+.product-grid .card,
+.product-grid .card__inner,
+.product-grid .card__media,
+.product-grid .media {
+  background: transparent !important;
 }
