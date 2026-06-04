@@ -3449,7 +3449,8 @@ details-disclosure > details {
   font-size: 1.8rem !important;
 }
 /* Collection-Seiten Hintergrund */
-body.template-collection .collection-hero,
+body.template-collection .collection-hero.color-background-1,
+body.template-collection .collection-hero.color-background-1.gradient,
 body.template-collection .collection-hero__inner,
 body.template-collection .collection-hero__text-wrapper,
 body.template-collection .product-grid-container,
@@ -3457,7 +3458,7 @@ body.template-collection .collection {
   background: #FAF2E8 !important;
 }
 
-/* Produktkarten-Hintergrund */
+/* Produktkarten-Hintergrund, ohne Bilder zu beschädigen */
 body.template-collection .product-grid .card__inner,
 body.template-collection .product-grid .card__media,
 body.template-collection .product-grid .media {
