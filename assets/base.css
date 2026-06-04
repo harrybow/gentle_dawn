@@ -3460,9 +3460,43 @@ body:has(.collection-hero__title) .product-grid .card__media,
 body:has(.collection-hero__title) .product-grid .media {
   background: transparent !important;
 }
-body:has(.collection-hero__title) .product-grid-container,
-body:has(.collection-hero__title) #product-grid,
-body:has(.collection-hero__title) .product-grid,
-body:has(.collection-hero__title) .grid {
-  background: #FAF2E8 !important;
+@media screen and (max-width: 749px) {
+  .banner__content {
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+
+  .banner__box {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    padding: 2.4rem 2rem !important;
+    text-align: left !important;
+  }
+
+  .banner__heading {
+    max-width: 320px !important;
+    font-size: 4.2rem !important;
+    line-height: 0.95 !important;
+    margin-bottom: 1.4rem !important;
+  }
+
+  .banner__text {
+    max-width: 300px !important;
+    font-size: 1.7rem !important;
+    line-height: 1.35 !important;
+    margin-bottom: 1.8rem !important;
+  }
+
+  .banner__buttons {
+    justify-content: flex-start !important;
+    width: auto !important;
+  }
+
+  .banner__buttons .button {
+    width: auto !important;
+    min-width: 240px !important;
+    padding: 1.4rem 2.4rem !important;
+    font-size: 1.6rem !important;
+  }
 }
