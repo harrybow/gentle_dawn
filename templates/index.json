@@ -148,13 +148,14 @@
         "product",
         "product_kPNdmY"
       ],
+      "custom_css": [],
       "settings": {
         "heading": "",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
+        "color_scheme": "scheme-6fccab88-6cde-4d30-a0d4-1da4455713ff",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -343,37 +344,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "collection_list_bjaKaE": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_B3HKP6": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "bundles"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_B3HKP6"
-      ],
-      "custom_css": [
-        ".collection-list .card__media img {transform: scale(0.62); transition: transform 0.3s ease;}"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -385,7 +355,6 @@
     "34cf39fa-51e0-4293-b456-bcc5cd63ed20",
     "83265369-2dec-4edb-9276-1ec064b74898",
     "cffd99b6-0a38-4a81-88dd-13e30f0d27cb",
-    "1725365170f3b1df7f",
-    "collection_list_bjaKaE"
+    "1725365170f3b1df7f"
   ]
 }
