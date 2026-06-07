@@ -16,7 +16,6 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Handmade in Berlin",
             "link": ""
@@ -24,6 +23,7 @@
         },
         "233074dc-611e-4815-968e-7ab015d25288": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "-20% auf alle Flaschen (außer Sets) mit dem Code \"GENUSS20\"",
             "link": ""
@@ -31,7 +31,6 @@
         },
         "6b1df875-7d43-4b20-8e8f-621f0c991c03": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Versand nach DE kostenlos ab 60 €",
             "link": "shopify://pages/versandkosten"
