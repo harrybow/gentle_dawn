@@ -148,7 +148,10 @@
         "product",
         "product_kPNdmY"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "/* Nur linke große Collage-Kachel verkleinern */.collage > .collage__item:first-child .card,.collage > .collage__item:first-child .card-wrapper {transform: scale(0.95) !important; transform-origin: center center !important;}",
+        "/* Platz nach dem Verkleinern sauber halten */.collage > .collage__item:first-child {display: flex !important; align-items: center !important; justify-content: center !important;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -156,61 +159,6 @@
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-c986199f-beb4-486d-8120-d3e8779b7b9e",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Gentle_Gin_clean_low_res_by_Tribunalova_14.jpg",
-            "title": "Geschenk-Set",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "Geschenk-Set",
-            "link": "shopify://collections/sets"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -351,7 +299,6 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "multicolumn",
     "34cf39fa-51e0-4293-b456-bcc5cd63ed20",
     "83265369-2dec-4edb-9276-1ec064b74898",
     "cffd99b6-0a38-4a81-88dd-13e30f0d27cb",
