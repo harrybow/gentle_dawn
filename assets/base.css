@@ -3504,3 +3504,11 @@ body:has(.collection-hero__title) .product-grid .media {
 #shopify-section-template--17865779839242__collage .color-inverse {
   background: #F5E1CC !important;
 }
+#shopify-section-template--17865779839242__collage .card,
+#shopify-section-template--17865779839242__collage .card__inner,
+#shopify-section-template--17865779839242__collage .card__media,
+#shopify-section-template--17865779839242__collage .media,
+#shopify-section-template--17865779839242__collage .card__content,
+#shopify-section-template--17865779839242__collage .card__information {
+  background: #F5E1CC !important;
+}
