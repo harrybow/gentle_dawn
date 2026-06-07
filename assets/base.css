@@ -3491,23 +3491,10 @@ body:has(.collection-hero__title) .product-grid .media {
   .banner__buttons {
   display: none !important;
 }
-/* Gentle Gin Collage Hintergrund */
-.collage,
 .collage-wrapper {
   background: #F5E1CC !important;
 }
 
-/* Rechte Produktkarten */
-.collage .card,
-.collage .card__inner,
-.collage .card__media,
-.collage .media,
-.collage .card__content,
-.collage .card__information {
-  background: #F5E1CC !important;
-}
-
-/* Textbereich der Karten */
-.collage .card-wrapper {
+.collage {
   background: #F5E1CC !important;
 }
