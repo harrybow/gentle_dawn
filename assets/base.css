@@ -3491,28 +3491,23 @@ body:has(.collection-hero__title) .product-grid .media {
   .banner__buttons {
   display: none !important;
 }
-/* Gentle Gin Startseite Collage komplett creme */
-#shopify-section-template--17865779839242__collage,
-#shopify-section-template--17865779839242__collage .collage,
-#shopify-section-template--17865779839242__collage .collage-wrapper,
-#shopify-section-template--17865779839242__collage .page-width {
+/* Gentle Gin Collage Hintergrund */
+.collage,
+.collage-wrapper {
   background: #F5E1CC !important;
 }
 
-/* Rechte Produktkacheln: Bild- und Textbereich */
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(2),
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(3),
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(2) .card,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(3) .card,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(2) .card__inner,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(3) .card__inner,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(2) .card__media,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(3) .card__media,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(2) .media,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(3) .media,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(2) .card__content,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(3) .card__content,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(2) .card__information,
-#shopify-section-template--17865779839242__collage .collage__item:nth-child(3) .card__information {
+/* Rechte Produktkarten */
+.collage .card,
+.collage .card__inner,
+.collage .card__media,
+.collage .media,
+.collage .card__content,
+.collage .card__information {
+  background: #F5E1CC !important;
+}
+
+/* Textbereich der Karten */
+.collage .card-wrapper {
   background: #F5E1CC !important;
 }
