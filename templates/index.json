@@ -125,27 +125,28 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": "tasting-box"
+            "collection": "bundles"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "gentle-gin-four-of-a-kind",
+            "product": "tasting-box-3x-100-ml-genussreise",
             "second_image": false
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "product_kPNdmY": {
+          "type": "product",
           "settings": {
-            "collection": "travel-size"
+            "product": "gentle-gin-four-of-a-kind",
+            "second_image": false
           }
         }
       },
       "block_order": [
         "collection-0",
         "product",
-        "collection-1"
+        "product_kPNdmY"
       ],
       "settings": {
         "heading": "",
@@ -348,6 +349,7 @@
       "blocks": {
         "featured_collection_B3HKP6": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "bundles"
           }
@@ -356,11 +358,14 @@
       "block_order": [
         "featured_collection_B3HKP6"
       ],
+      "custom_css": [
+        ".collection-list .card__media img {transform: scale(0.62); transition: transform 0.3s ease;}"
+      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
