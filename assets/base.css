@@ -3491,10 +3491,6 @@ body:has(.collection-hero__title) .product-grid .media {
   .banner__buttons {
   display: none !important;
 }
-.collage-wrapper {
-  background: #F5E1CC !important;
-}
-
-.collage {
+#shopify-section-template--17865779839242__collage {
   background: #F5E1CC !important;
 }
