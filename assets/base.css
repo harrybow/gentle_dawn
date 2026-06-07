@@ -3497,17 +3497,19 @@ body:has(.collection-hero__title) .product-grid .media {
   background: #F5E1CC !important;
 }
 
-/* Rechte Produktkarten */
-.collage .card,
-.collage .card__inner,
-.collage .card__media,
-.collage .media,
-.collage .card__content,
-.collage .card__information {
-  background: #F5E1CC !important;
+.collage > .collage__item:first-child .card__media,
+.collage > .collage__item:first-child .media {
+  aspect-ratio: auto !important;
+  height: 100% !important;
 }
-
-/* Textbereich der Karten */
-.collage .card-wrapper {
-  background: #F5E1CC !important;
+.collage > .collage__item:first-child img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}
+.collage > .collage__item:first-child {
+  height: auto !important;
+}
+.collage > .collage__item:first-child .card {
+  height: auto !important;
 }
