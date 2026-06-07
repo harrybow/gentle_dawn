@@ -149,8 +149,10 @@
         "product_kPNdmY"
       ],
       "custom_css": [
-        "/* Nur linke große Collage-Kachel verkleinern */.collage > .collage__item:first-child .card,.collage > .collage__item:first-child .card-wrapper {transform: scale(0.95) !important; transform-origin: center center !important;}",
-        " /* Platz nach dem Verkleinern sauber halten */.collage > .collage__item:first-child {display: flex !important; align-items: center !important; justify-content: center !important;}"
+        ".collage > .collage__item:first-child .card__media,.collage > .collage__item:first-child .media {aspect-ratio: auto !important; height: 100% !important;}",
+        ".collage > .collage__item:first-child img {width: 100% !important; height: 100% !important; object-fit: contain !important;}",
+        ".collage > .collage__item:first-child {height: auto !important;}",
+        ".collage > .collage__item:first-child .card {height: auto !important;}"
       ],
       "settings": {
         "heading": "",
