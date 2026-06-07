@@ -3491,11 +3491,7 @@ body:has(.collection-hero__title) .product-grid .media {
   .banner__buttons {
   display: none !important;
 }
-/* Gentle Gin Collage Hintergrund */
-.collage,
-.collage-wrapper {
-  background: #F5E1CC !important;
-}
+
 #shopify-section-template--17865779839242__collage .collage,
 #shopify-section-template--17865779839242__collage .collage-wrapper,
 #shopify-section-template--17865779839242__collage .gradient,
