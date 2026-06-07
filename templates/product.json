@@ -40,6 +40,7 @@
         },
         "text_QCVUAd": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Finde deinen Favoriten – mit unserer 3er-Genussreise.",
             "text_style": "body"
@@ -162,53 +163,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "c521f801-e10e-483a-8aef-ca0e96d7cd56": {
-          "type": "caption",
-          "settings": {
-            "caption": "Gentle Gin Saffron",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Sinnlich & betörend",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Dieser einzigartige Tropfen ist eine sinnliche Hommage an die farbenprächtigen Gewürzmärkte des Orients, verstrickt in einem Tango der Geschmacksexplosionen, der deine Sinne fesseln wird.</p><p>Saffron, unser edler Gin, ist kein gewöhnlicher Spirituose. Er ist eine Symphonie aus erlesenen Aromen und faszinierenden Geschmacksnuancen. Im Zentrum dieses Sinnesfeuerwerks steht das namensgebende Safran, das teuerste Gewürz der Welt, das mit seiner unverwechselbaren Note und dem strahlenden Goldton unseren Gin bereichert.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "c521f801-e10e-483a-8aef-ca0e96d7cd56",
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/genialitaeter_A_tumbler_glass_filled_with_a_vibrant_golden-yell_5a511ae5-69ef-441a-94eb-a18b28e609da.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "bottom",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 32
       }
     },
     "e7f54e15-5c92-425d-8f95-0f124941b198": {
@@ -709,12 +663,43 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1780873955248fae7b": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1780873983017fc836": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_rating_gyqFw6": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "Bewertungen",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_gyqFw6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "1750200706659d9e3c",
-    "image-with-text",
     "e7f54e15-5c92-425d-8f95-0f124941b198",
     "daea63a2-4bb5-40d9-a05c-d57b862e3791",
     "9f59e8b7-ed25-464c-a56b-f0fcbc814f9c",
@@ -729,6 +714,8 @@
     "3ea1aa2c-ffef-4d3c-ae86-6d68b1fa113c",
     "9931fee3-d3bb-4acc-87a4-59d9f59460bd",
     "related-products",
-    "1753880265be597a84"
+    "1753880265be597a84",
+    "1780873955248fae7b",
+    "1780873983017fc836"
   ]
 }
