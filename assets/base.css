@@ -3491,11 +3491,23 @@ body:has(.collection-hero__title) .product-grid .media {
   .banner__buttons {
   display: none !important;
 }
-#shopify-section-template--17865779839242__collage,
-#shopify-section-template--17865779839242__collage .collage,
-#shopify-section-template--17865779839242__collage .card,
-#shopify-section-template--17865779839242__collage .card__inner,
-#shopify-section-template--17865779839242__collage .card__content,
-#shopify-section-template--17865779839242__collage .card__information {
+/* Gentle Gin Collage Hintergrund */
+.collage,
+.collage-wrapper {
+  background: #F5E1CC !important;
+}
+
+/* Rechte Produktkarten */
+.collage .card,
+.collage .card__inner,
+.collage .card__media,
+.collage .media,
+.collage .card__content,
+.collage .card__information {
+  background: #F5E1CC !important;
+}
+
+/* Textbereich der Karten */
+.collage .card-wrapper {
   background: #F5E1CC !important;
 }
