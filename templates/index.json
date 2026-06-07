@@ -342,6 +342,33 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "collection_list_bjaKaE": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_B3HKP6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bundles"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_B3HKP6"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -353,6 +380,7 @@
     "34cf39fa-51e0-4293-b456-bcc5cd63ed20",
     "83265369-2dec-4edb-9276-1ec064b74898",
     "cffd99b6-0a38-4a81-88dd-13e30f0d27cb",
-    "1725365170f3b1df7f"
+    "1725365170f3b1df7f",
+    "collection_list_bjaKaE"
   ]
 }
