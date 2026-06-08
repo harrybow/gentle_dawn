@@ -148,7 +148,11 @@
         "product",
         "product_kPNdmY"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".gradient,.color-scheme-6,.collage-wrapper,[class*=\"__collage-padding\"]{background:#FAF2E8!important;background-color:#FAF2E8!important}",
+        ".collage,.collage .card,.collage .card__inner,.collage .card__media,.collage .media{background:transparent!important}",
+        ".collage .card__heading,.collage .price,.collage .price-item,.collage .full-unstyled-link{color:#173b2f!important}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -194,6 +198,7 @@
         "text_zLTntr",
         "template--17865779839242__83265369-2dec-4edb-9276-1ec064b74898-16892601526f3cbd22-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
