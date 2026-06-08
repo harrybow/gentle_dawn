@@ -230,4 +230,28 @@
     height: auto !important;
     object-fit: contain !important;
   }
+}/* Desktop Feinschliff Bundle-Collage */
+@media screen and (min-width: 750px) {
+  .collage-wrapper {
+    background: #173b2f !important;
+    padding-top: 44px !important;
+    padding-bottom: 56px !important;
+  }
+
+  .collage-wrapper .page-width {
+    max-width: 1280px !important;
+  }
+
+  .collage {
+    gap: 10px !important;
+    align-items: start !important;
+  }
+
+  .collage > .collage__item:first-child {
+    max-width: 760px !important;
+  }
+
+  .collage > .collage__item:not(:first-child) {
+    max-width: 360px !important;
+  }
 }
