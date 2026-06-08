@@ -3517,3 +3517,17 @@ body:has(.collection-hero__title) .product-grid .media {
 #shopify-section-template--17865779839242__collage .collage__item:first-child .card__content {
   display: none !important;
 }
+@media screen and (max-width: 749px) {
+  #shopify-section-template--17865779839242__collage .collage__item:first-child .card,
+  #shopify-section-template--17865779839242__collage .collage__item:first-child .card-wrapper {
+    transform: none !important;
+  }
+
+  #shopify-section-template--17865779839242__collage .collage__item:first-child {
+    display: block !important;
+  }
+
+  #shopify-section-template--17865779839242__collage .collage__item:first-child .card__content {
+    display: none !important;
+  }
+}
