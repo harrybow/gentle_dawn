@@ -3521,7 +3521,7 @@ body:has(.collection-hero__title) .product-grid .media {
     width: 80% !important;
     max-width: 880px !important;
     height: auto !important;
-    margin: 100 auto !important;
+    margin: 0 auto !important;
   }
 
   #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card__inner {
