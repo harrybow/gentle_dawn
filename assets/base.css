@@ -3499,8 +3499,8 @@ body:has(.collection-hero__title) .product-grid .media {
 }
 
 #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child img {
-  width: 100% !important;
-  height: 100% !important;
+  width: 80% !important;
+  height: 80% !important;
   object-fit: contain !important;
 }
 
