@@ -3517,7 +3517,7 @@ body:has(.collection-hero__title) .product-grid .media {
     width: 100% !important;
     height: 100% !important;
     object-fit: contain !important;
-    transform: scale(0.88) !important;
+    transform: scale(0.25) !important;
     transform-origin: center center !important;
   }
 }
