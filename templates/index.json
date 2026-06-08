@@ -148,12 +148,7 @@
         "product",
         "product_kPNdmY"
       ],
-      "custom_css": [
-        ".collage>.collage__item:first-child .card__media,.collage>.collage__item:first-child .media{aspect-ratio:auto!important;height:100%!important}",
-        ".collage>.collage__item:first-child img{width:100%!important;height:100%!important;object-fit:contain!important;transform:scale(.88)!important}",
-        ".collage>.collage__item:first-child,.collage>.collage__item:first-child .card{height:auto!important}",
-        "@media(max-width:749px){.collage>.collage__item:first-child img{height:auto!important;transform:none!important}}"
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "",
         "heading_size": "h2",
