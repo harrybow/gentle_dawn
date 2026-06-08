@@ -3535,3 +3535,6 @@ body:has(.collection-hero__title) .product-grid .media {
     height: auto !important;
   }
 }
+#shopify-section-template--17865779839242__collage {
+  outline: 10px solid red !important;
+}
