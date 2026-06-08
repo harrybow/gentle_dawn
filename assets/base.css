@@ -3495,7 +3495,7 @@ body:has(.collection-hero__title) .product-grid .media {
 @media screen and (min-width: 750px) {
   .collage > .collage__item:first-child .card,
   .collage > .collage__item:first-child .card-wrapper {
-    transform: scale(0.00) !important;
+    transform: scale(0.80) !important;
     transform-origin: center center !important;
   }
 
