@@ -3491,43 +3491,36 @@ body:has(.collection-hero__title) .product-grid .media {
   .banner__buttons {
   display: none !important;
 }
-#shopify-section-template--17865779839242__collage,
-#shopify-section-template--17865779839242__collage .collage,
-#shopify-section-template--17865779839242__collage .collage-wrapper {
-  background: #F5E1CC !important;
+/* Desktop: große linke Kachel etwas kleiner */
+@media screen and (min-width: 750px) {
+  .collage > .collage__item:first-child .card,
+  .collage > .collage__item:first-child .card-wrapper {
+    transform: scale(0.88) !important;
+    transform-origin: center center !important;
+  }
+
+  .collage > .collage__item:first-child {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
 }
-#shopify-section-template--17865779839242__collage .card,
-#shopify-section-template--17865779839242__collage .card__inner,
-#shopify-section-template--17865779839242__collage .card__media,
-#shopify-section-template--17865779839242__collage .media,
-#shopify-section-template--17865779839242__collage .card__content,
-#shopify-section-template--17865779839242__collage .card__information {
-  background: #F5E1CC !important;
-}
-#shopify-section-template--17865779839242__collage .collage__item:first-child .card,
-#shopify-section-template--17865779839242__collage .collage__item:first-child .card-wrapper {
-  transform: scale(0.88) !important;
-  transform-origin: center center !important;
-}
-#shopify-section-template--17865779839242__collage .collage__item:first-child {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-#shopify-section-template--17865779839242__collage .collage__item:first-child .card__content {
-  display: none !important;
-}
+
+/* Mobile: alles normal, damit Klick und Höhe stimmen */
 @media screen and (max-width: 749px) {
-  #shopify-section-template--17865779839242__collage .collage__item:first-child .card,
-  #shopify-section-template--17865779839242__collage .collage__item:first-child .card-wrapper {
+  .collage > .collage__item:first-child .card,
+  .collage > .collage__item:first-child .card-wrapper {
     transform: none !important;
   }
 
-  #shopify-section-template--17865779839242__collage .collage__item:first-child {
+  .collage > .collage__item:first-child {
     display: block !important;
+    height: auto !important;
   }
 
-  #shopify-section-template--17865779839242__collage .collage__item:first-child .card__content {
-    display: none !important;
+  .collage > .collage__item:first-child img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
   }
 }
