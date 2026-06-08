@@ -3511,7 +3511,7 @@ body:has(.collection-hero__title) .product-grid .media {
     display: block !important;
     width: 100% !important;
     height: auto !important;
-    max-height: 600px !important;
+    max-height: 200px !important;
     object-fit: contain !important;
   }
 }
