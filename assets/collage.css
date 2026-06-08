@@ -200,3 +200,34 @@
   outline: none;
   box-shadow: none;
 }
+/* Bundle-Collage: großes Kategoriebild vollständig anzeigen */
+.collage > .collage__item:first-child .card__media,
+.collage > .collage__item:first-child .media {
+  aspect-ratio: auto !important;
+  height: 100% !important;
+}
+
+.collage > .collage__item:first-child img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+}
+
+.collage > .collage__item:first-child,
+.collage > .collage__item:first-child .card {
+  height: auto !important;
+}
+
+@media screen and (max-width: 749px) {
+  .collage > .collage__item:first-child .card__media,
+  .collage > .collage__item:first-child .media {
+    height: auto !important;
+  }
+
+  .collage > .collage__item:first-child img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+}
