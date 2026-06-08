@@ -3519,7 +3519,7 @@ body:has(.collection-hero__title) .product-grid .media {
   #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card-wrapper,
   #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card {
     width: 80% !important;
-    max-width: 880px !important;
+    max-width: 80px !important;
     height: auto !important;
     margin: 0 auto !important;
   }
@@ -3536,7 +3536,7 @@ body:has(.collection-hero__title) .product-grid .media {
 
   #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child img {
     position: relative !important;
-    width: 50% !important;
+    width: 100% !important;
     height: auto !important;
     object-fit: contain !important;
     display: block !important;
