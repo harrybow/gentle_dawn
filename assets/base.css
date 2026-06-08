@@ -3491,36 +3491,123 @@ body:has(.collection-hero__title) .product-grid .media {
   .banner__buttons {
   display: none !important;
 }
-/* Desktop: große linke Kachel etwas kleiner */
+/* ================================
+   Startseite: Bundle Collage
+   Desktop + Mobile sauber stabilisiert
+   ================================ */
+
+#shopify-section-template--17865779839242__collage {
+  background: #173b2f !important;
+}
+
+#shopify-section-template--17865779839242__collage .collage {
+  align-items: stretch !important;
+}
+
+/* Große linke Bundle-Kachel */
+#shopify-section-template--17865779839242__collage .collage > .collage__item:first-child {
+  height: auto !important;
+}
+
+/* Bildfläche der großen Kachel stabil halten */
+#shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card__media,
+#shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .media {
+  aspect-ratio: auto !important;
+  height: 100% !important;
+}
+
+/* Großes Bundle-Bild sauber einpassen */
+#shopify-section-template--17865779839242__collage .collage > .collage__item:first-child img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}
+
+/* Produktkarten rechts: Lesbarkeit */
+#shopify-section-template--17865779839242__collage .card__heading,
+#shopify-section-template--17865779839242__collage .price,
+#shopify-section-template--17865779839242__collage .price-item,
+#shopify-section-template--17865779839242__collage .full-unstyled-link {
+  color: #ffffff !important;
+}
+
+/* Desktop */
 @media screen and (min-width: 750px) {
-  .collage > .collage__item:first-child .card,
-  .collage > .collage__item:first-child .card-wrapper {
-    transform: scale(0.80) !important;
-    transform-origin: center center !important;
+  #shopify-section-template--17865779839242__collage .collage {
+    gap: 16px !important;
   }
 
-  .collage > .collage__item:first-child {
+  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
   }
+
+  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card,
+  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card-wrapper {
+    transform: scale(0.94) !important;
+    transform-origin: center center !important;
+  }
+
+  #shopify-section-template--17865779839242__collage .card__heading {
+    font-size: 1.4rem !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+  }
 }
 
-/* Mobile: alles normal, damit Klick und Höhe stimmen */
+/* Mobile */
 @media screen and (max-width: 749px) {
-  .collage > .collage__item:first-child .card,
-  .collage > .collage__item:first-child .card-wrapper {
+  #shopify-section-template--17865779839242__collage {
+    padding-top: 28px !important;
+    padding-bottom: 36px !important;
+  }
+
+  #shopify-section-template--17865779839242__collage .collage {
+    gap: 18px !important;
+  }
+
+  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child {
+    display: block !important;
+    height: auto !important;
+    margin-bottom: 18px !important;
+  }
+
+  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card,
+  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card-wrapper {
     transform: none !important;
   }
 
-  .collage > .collage__item:first-child {
-    display: block !important;
+  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card__media,
+  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .media {
+    aspect-ratio: auto !important;
     height: auto !important;
   }
 
-  .collage > .collage__item:first-child img {
+  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child img {
     width: 100% !important;
     height: auto !important;
     object-fit: contain !important;
+  }
+
+  #shopify-section-template--17865779839242__collage h2 {
+    color: #ffffff !important;
+    font-size: 3.2rem !important;
+    line-height: 1.1 !important;
+    text-align: center !important;
+    margin-top: 12px !important;
+    margin-bottom: 18px !important;
+  }
+
+  #shopify-section-template--17865779839242__collage .card__heading {
+    font-size: 1.8rem !important;
+    line-height: 1.18 !important;
+    text-align: center !important;
+  }
+
+  #shopify-section-template--17865779839242__collage .price {
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 1.7rem !important;
   }
 }
