@@ -3491,28 +3491,3 @@ body:has(.collection-hero__title) .product-grid .media {
   .banner__buttons {
   display: none !important;
 }
-/* Startseite: Bundle-Collage Bildfix */
-body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child .card__media,
-body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child .media {
-  aspect-ratio: auto !important;
-  height: 100% !important;
-}
-
-body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child img {
-  width: 40% !important;
-  height: 40% !important;
-  object-fit: contain !important;
-}
-
-body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child,
-body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child .card {
-  height: auto !important;
-}
-
-@media screen and (max-width: 749px) {
-  body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child .card__media,
-  body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child .media,
-  body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child img {
-    height: auto !important;
-  }
-}
