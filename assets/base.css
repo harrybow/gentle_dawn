@@ -3491,56 +3491,28 @@ body:has(.collection-hero__title) .product-grid .media {
   .banner__buttons {
   display: none !important;
 }
-/* Bundle Collage Startseite: Desktop Zoom-out, Mobile stabil */
+/* Startseite: Bundle-Collage Bildfix */
+body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child .card__media,
+body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child .media {
+  aspect-ratio: auto !important;
+  height: 100% !important;
+}
 
-@media screen and (min-width: 750px) {
-  section[id*="__collage"] .collage > .collage__item:first-child,
-  section[id*="__collage"] .collage > .collage__item:first-child .card {
-    height: auto !important;
-  }
+body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}
 
-  section[id*="__collage"] .collage > .collage__item:first-child .card__media,
-  section[id*="__collage"] .collage > .collage__item:first-child .media {
-    aspect-ratio: auto !important;
-    height: 100% !important;
-    overflow: hidden !important;
-    position: relative !important;
-  }
-
-  section[id*="__collage"] .collage > .collage__item:first-child .media img,
-  section[id*="__collage"] .collage > .collage__item:first-child img {
-    position: absolute !important;
-    top: 6% !important;
-    left: 6% !important;
-    width: 88% !important;
-    height: 88% !important;
-    object-fit: contain !important;
-    object-position: center center !important;
-  }
+body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child,
+body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child .card {
+  height: auto !important;
 }
 
 @media screen and (max-width: 749px) {
-  section[id*="__collage"] .collage > .collage__item:first-child,
-  section[id*="__collage"] .collage > .collage__item:first-child .card {
+  body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child .card__media,
+  body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child .media,
+  body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child img {
     height: auto !important;
-    margin-bottom: 18px !important;
-  }
-
-  section[id*="__collage"] .collage > .collage__item:first-child .card__media,
-  section[id*="__collage"] .collage > .collage__item:first-child .media {
-    aspect-ratio: auto !important;
-    height: auto !important;
-    overflow: visible !important;
-  }
-
-  section[id*="__collage"] .collage > .collage__item:first-child .media img,
-  section[id*="__collage"] .collage > .collage__item:first-child img {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    width: 100% !important;
-    height: auto !important;
-    object-fit: contain !important;
-    display: block !important;
   }
 }
