@@ -3521,7 +3521,7 @@ body:has(.collection-hero__title) .product-grid .media {
     height: 100% !important;
     object-fit: contain !important;
     object-position: center center !important;
-    transform: scale(0.86) !important;
+    transform: scale(0.26) !important;
     transform-origin: center center !important;
   }
 }
