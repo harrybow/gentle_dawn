@@ -3512,8 +3512,8 @@ body:has(.collection-hero__title) .product-grid .media {
     position: absolute !important;
     top: 6% !important;
     left: 6% !important;
-    width: 40% !important;
-    height: 40% !important;
+    width: 88% !important;
+    height: 88% !important;
     object-fit: contain !important;
     object-position: center center !important;
   }
