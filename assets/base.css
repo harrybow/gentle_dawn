@@ -3499,8 +3499,8 @@ body.template-index .shopify-section:has(.collage) .collage > .collage__item:fir
 }
 
 body.template-index .shopify-section:has(.collage) .collage > .collage__item:first-child img {
-  width: 100% !important;
-  height: 100% !important;
+  width: 40% !important;
+  height: 40% !important;
   object-fit: contain !important;
 }
 
