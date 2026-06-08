@@ -3491,31 +3491,4 @@ body:has(.collection-hero__title) .product-grid .media {
   .banner__buttons {
   display: none !important;
 }
-/* Startseite: Bundle-Collage Bildfix */
-#shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card__media,
-#shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .media {
-  aspect-ratio: auto !important;
-  height: 100% !important;
-}
-
-#shopify-section-template--17865779839242__collage .collage > .collage__item:first-child img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain !important;
-}
-
-#shopify-section-template--17865779839242__collage .collage > .collage__item:first-child {
-  height: auto !important;
-}
-
-#shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card {
-  height: auto !important;
-}
-
-@media screen and (max-width: 749px) {
-  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .card__media,
-  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child .media,
-  #shopify-section-template--17865779839242__collage .collage > .collage__item:first-child img {
-    height: auto !important;
-  }
-}
+.collage>.collage__item:first-child .card__media,.collage>.collage__item:first-child .media{aspect-ratio:auto!important;height:100%!important}.collage>.collage__item:first-child img{width:100%!important;height:100%!important;object-fit:contain!important}.collage>.collage__item:first-child,.collage>.collage__item:first-child .card{height:auto!important}@media(max-width:749px){.collage>.collage__item:first-child img{height:auto!important}}
