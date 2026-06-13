@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_TwEVCM": {
+          "type": "announcement",
+          "settings": {
+            "text": "World Gin Day: 20 % auf Gentle Gin mit Code WORLDGINDAY bis 14.06",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "disabled": true,
@@ -39,6 +46,7 @@
         }
       },
       "block_order": [
+        "announcement_TwEVCM",
         "announcement-bar-0",
         "233074dc-611e-4815-968e-7ab015d25288",
         "6b1df875-7d43-4b20-8e8f-621f0c991c03"
