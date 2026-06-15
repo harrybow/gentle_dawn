@@ -1,0 +1,508 @@
+{% assign p = section.settings.product %}
+{% assign v = p.selected_or_first_available_variant %}
+
+<section class="fd-page">
+  <section class="fd-hero">
+    {% if section.settings.bg_image != blank %}
+      <div class="fd-bg">
+        <img src="{{ section.settings.bg_image | image_url: width: 2400 }}" alt="">
+      </div>
+    {% endif %}
+
+    <div class="fd-container fd-grid">
+      <div class="fd-bottle-col">
+        <div class="fd-bottle-wrap">
+          <div class="fd-glow"></div>
+
+          {% if section.settings.bottle_image != blank %}
+            <img class="fd-bottle" src="{{ section.settings.bottle_image | image_url: width: 1000 }}" alt="{{ section.settings.title_main }} {{ section.settings.title_italic }}">
+          {% elsif p.featured_image %}
+            <img class="fd-bottle" src="{{ p.featured_image | image_url: width: 1000 }}" alt="{{ p.title | escape }}">
+          {% endif %}
+        </div>
+
+        <div class="fd-meta">
+          <span>{{ section.settings.meta_left }}</span>
+          <span class="fd-line"></span>
+          <span>{{ section.settings.meta_right }}</span>
+        </div>
+      </div>
+
+      <div class="fd-detail">
+        <div class="fd-eyebrow">{{ section.settings.eyebrow }}</div>
+
+        <h1 class="fd-title">
+          {{ section.settings.title_main }}
+          <span>{{ section.settings.title_italic }}</span>
+        </h1>
+
+        <span class="fd-rule"></span>
+
+        <p class="fd-subtitle">{{ section.settings.subtitle }}</p>
+
+        <p class="fd-desc">{{ section.settings.description }}</p>
+
+        <div class="fd-price-row">
+          <div>
+            <div class="fd-label">Preis</div>
+
+            {% if p != blank %}
+              <div class="fd-price">{{ v.price | money }}</div>
+            {% else %}
+              <div class="fd-price">€ 39,99</div>
+            {% endif %}
+
+            <div class="fd-note">inkl. MwSt. · zzgl. Versand</div>
+            <div class="fd-note">{{ section.settings.base_price }}</div>
+          </div>
+
+          <div class="fd-batch">
+            <div class="fd-label">Batch</div>
+            <div class="fd-batch-value">{{ section.settings.batch }}</div>
+          </div>
+        </div>
+
+        {% if p != blank %}
+          {% form 'product', p, class: 'fd-cart-form' %}
+            <input type="hidden" name="id" value="{{ v.id }}">
+
+            <div class="fd-qty">
+              <button type="button" class="fd-qty-btn" onclick="this.parentNode.querySelector('input').stepDown()">−</button>
+              <input type="number" name="quantity" min="1" max="{{ section.settings.max_qty }}" value="1">
+              <button type="button" class="fd-qty-btn" onclick="this.parentNode.querySelector('input').stepUp()">+</button>
+            </div>
+
+            <button type="submit" class="fd-add" {% unless v.available %}disabled{% endunless %}>
+              {% if v.available %}In den Warenkorb{% else %}Ausverkauft{% endif %}
+            </button>
+          {% endform %}
+        {% else %}
+          <div class="fd-warning">Bitte Produkt in der Section auswählen.</div>
+        {% endif %}
+
+        <ul class="fd-features">
+          <li>✦ {{ section.settings.feature_1 }}</li>
+          <li>✦ {{ section.settings.feature_2 }}</li>
+          <li>✦ {{ section.settings.feature_3 }}</li>
+          <li>✦ {{ section.settings.feature_4 }}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="fd-manifesto">
+    <div class="fd-narrow">
+      <div class="fd-eyebrow">{{ section.settings.manifesto_eyebrow }}</div>
+      <p class="fd-quote">{{ section.settings.quote }}</p>
+      <span class="fd-rule fd-center"></span>
+      <p class="fd-text">{{ section.settings.manifesto_text }}</p>
+    </div>
+  </section>
+
+  <section class="fd-botanicals">
+    <div class="fd-container">
+      <div class="fd-section-head">
+        <div class="fd-eyebrow">Botanicals</div>
+        <h2>{{ section.settings.botanical_title }}</h2>
+      </div>
+
+      <div class="fd-bot-grid">
+        <div class="fd-bot-item">
+          <div>01</div>
+          <div>
+            <h3>{{ section.settings.bot_1 }}</h3>
+            <p>{{ section.settings.bot_1_text }}</p>
+          </div>
+        </div>
+
+        <div class="fd-bot-item">
+          <div>02</div>
+          <div>
+            <h3>{{ section.settings.bot_2 }}</h3>
+            <p>{{ section.settings.bot_2_text }}</p>
+          </div>
+        </div>
+
+        <div class="fd-bot-item">
+          <div>03</div>
+          <div>
+            <h3>{{ section.settings.bot_3 }}</h3>
+            <p>{{ section.settings.bot_3_text }}</p>
+          </div>
+        </div>
+
+        <div class="fd-bot-item">
+          <div>04</div>
+          <div>
+            <h3>{{ section.settings.bot_4 }}</h3>
+            <p>{{ section.settings.bot_4_text }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% if section.settings.editorial_image != blank %}
+    <section class="fd-editorial">
+      <img src="{{ section.settings.editorial_image | image_url: width: 2400 }}" alt="">
+      <div class="fd-editorial-overlay"></div>
+      <div class="fd-editorial-content">
+        <div class="fd-eyebrow">{{ section.settings.editorial_eyebrow }}</div>
+        <p>{{ section.settings.editorial_text }}</p>
+      </div>
+    </section>
+  {% endif %}
+
+  <section class="fd-specs">
+    <div class="fd-container">
+      <div class="fd-section-head">
+        <div class="fd-eyebrow">Details</div>
+        <h2>Spezifikationen</h2>
+      </div>
+
+      <div class="fd-spec-grid">
+        <div><span>Kategorie</span><strong>{{ section.settings.spec_category }}</strong></div>
+        <div><span>Alkohol</span><strong>{{ section.settings.spec_alcohol }}</strong></div>
+        <div><span>Inhalt</span><strong>{{ section.settings.spec_volume }}</strong></div>
+        <div><span>Batch</span><strong>{{ section.settings.batch }}</strong></div>
+        <div><span>Edition</span><strong>{{ section.settings.spec_edition }}</strong></div>
+        <div><span>Herkunft</span><strong>{{ section.settings.spec_origin }}</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fd-cta">
+    <div class="fd-narrow">
+      <div class="fd-eyebrow">{{ section.settings.cta_eyebrow }}</div>
+      <h2>{{ section.settings.cta_title }}</h2>
+      <p>{{ section.settings.cta_text }}</p>
+      <a href="#MainContent" class="fd-cta-btn">Zurück nach oben</a>
+    </div>
+  </section>
+</section>
+
+<style>
+.fd-page{background:#111;color:#f5f3ee;font-family:Arial,sans-serif}
+.fd-page h1,.fd-page h2,.fd-page h3,.fd-price,.fd-quote{font-family:Georgia,serif;font-weight:300}
+.fd-container{max-width:1400px;margin:auto;padding:0 24px}
+.fd-hero{position:relative;padding:110px 0 80px;overflow:hidden}
+.fd-bg{position:absolute;inset:0;z-index:0}
+.fd-bg img{width:100%;height:100%;object-fit:cover;opacity:.25}
+.fd-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(#111,rgba(17,17,17,.86),#111)}
+.fd-grid{position:relative;z-index:1;display:grid;gap:44px;align-items:center}
+.fd-bottle-wrap{position:relative;aspect-ratio:4/5;display:flex;align-items:flex-end;justify-content:center}
+.fd-glow{position:absolute;bottom:35px;width:70%;height:100px;background:rgba(176,141,87,.14);filter:blur(50px);border-radius:999px}
+.fd-bottle{position:relative;max-height:92%;width:auto;filter:drop-shadow(0 30px 50px rgba(0,0,0,.7))}
+.fd-meta{margin-top:24px;display:flex;justify-content:center;gap:16px;font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:rgba(245,243,238,.55)}
+.fd-line,.fd-rule{display:block;width:48px;height:1px;background:#b08d57}
+.fd-eyebrow{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:#b08d57;margin-bottom:20px}
+.fd-title{font-size:52px;line-height:.95;letter-spacing:-.02em;margin:0 0 24px}
+.fd-title span{display:block;font-style:italic}
+.fd-subtitle{margin-top:24px;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:rgba(245,243,238,.7)}
+.fd-desc{margin-top:28px;font-size:17px;line-height:1.7;color:rgba(245,243,238,.75);max-width:580px}
+.fd-price-row{margin-top:36px;border-top:1px solid rgba(245,243,238,.12);padding-top:24px;display:flex;justify-content:space-between;gap:24px}
+.fd-label{font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:#b08d57;margin-bottom:8px}
+.fd-price{font-size:46px}
+.fd-note{font-size:11px;color:rgba(245,243,238,.5);margin-top:4px}
+.fd-batch{text-align:right}.fd-batch-value{font-family:Georgia,serif;font-size:30px}
+.fd-cart-form{margin-top:30px;display:flex;gap:12px}
+.fd-qty{display:flex;border:1px solid rgba(245,243,238,.25)}
+.fd-qty input{width:56px;text-align:center;background:transparent;border:0;color:#f5f3ee;font-size:18px}
+.fd-qty-btn{background:transparent;border:0;color:#f5f3ee;padding:12px 16px;font-size:18px;cursor:pointer}
+.fd-add{flex:1;background:#b08d57;color:#111;border:0;padding:16px 36px;font-size:11px;letter-spacing:.25em;text-transform:uppercase;cursor:pointer}
+.fd-add:hover{background:#f5f3ee}
+.fd-features{margin-top:30px;display:grid;grid-template-columns:1fr 1fr;gap:12px;list-style:none;padding:0;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(245,243,238,.58)}
+.fd-manifesto,.fd-specs{background:#2b2118;padding:90px 24px}
+.fd-narrow{max-width:760px;margin:auto;text-align:center}
+.fd-quote{font-size:34px;font-style:italic;line-height:1.25}
+.fd-center{margin:36px auto}
+.fd-text,.fd-cta p{font-size:17px;line-height:1.7;color:rgba(245,243,238,.75)}
+.fd-botanicals{padding:90px 0;background:#111}
+.fd-section-head{text-align:center;margin-bottom:60px}
+.fd-section-head h2{font-size:42px;margin:0}
+.fd-bot-grid,.fd-spec-grid{display:grid;gap:32px}
+.fd-bot-item{display:flex;gap:24px;border-bottom:1px solid rgba(245,243,238,.1);padding-bottom:28px}
+.fd-bot-item>div:first-child{font-family:Georgia,serif;font-size:36px;color:#b08d57;min-width:48px}
+.fd-bot-item h3{font-size:28px;margin:0 0 8px}
+.fd-bot-item p{margin:0;color:rgba(245,243,238,.65)}
+.fd-editorial{position:relative;height:60vh;min-height:420px;overflow:hidden}
+.fd-editorial img{width:100%;height:100%;object-fit:cover}
+.fd-editorial-overlay{position:absolute;inset:0;background:linear-gradient(to top,#111,rgba(17,17,17,.35),rgba(17,17,17,.65))}
+.fd-editorial-content{position:absolute;left:24px;right:24px;bottom:64px;max-width:720px}
+.fd-editorial-content p{font-family:Georgia,serif;font-size:32px;font-style:italic;line-height:1.2}
+.fd-spec-grid div{display:flex;justify-content:space-between;gap:24px;border-bottom:1px solid rgba(245,243,238,.1);padding:16px 0}
+.fd-spec-grid span{font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:#b08d57}
+.fd-spec-grid strong{font-family:Georgia,serif;font-weight:300;font-size:22px;text-align:right}
+.fd-cta{padding:100px 24px;text-align:center;background:#111}
+.fd-cta h2{font-family:Georgia,serif;font-weight:300;font-style:italic;font-size:42px;line-height:1.15}
+.fd-cta-btn{display:inline-block;margin-top:32px;border:1px solid #b08d57;color:#b08d57;padding:15px 34px;text-decoration:none;font-size:11px;letter-spacing:.25em;text-transform:uppercase}
+.fd-warning{margin-top:24px;color:#b08d57}
+@media(min-width:768px){
+.fd-container{padding:0 64px}
+.fd-grid{grid-template-columns:1fr 1fr;gap:64px}
+.fd-title{font-size:76px}
+.fd-bot-grid,.fd-spec-grid{grid-template-columns:1fr 1fr}
+.fd-hero{padding-top:140px;padding-bottom:110px}
+}
+@media(max-width:640px){
+.fd-cart-form{flex-direction:column}
+.fd-price-row{flex-direction:column}
+.fd-batch{text-align:left}
+.fd-features{grid-template-columns:1fr}
+.fd-title{font-size:48px}
+.fd-quote,.fd-cta h2{font-size:30px}
+.fd-meta{letter-spacing:.16em;font-size:9px}
+}
+</style>
+
+{% schema %}
+{
+  "name": "Finnskog Dark Landing",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Produkt"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Hero Hintergrund"
+    },
+    {
+      "type": "image_picker",
+      "id": "bottle_image",
+      "label": "Flaschenbild optional"
+    },
+    {
+      "type": "image_picker",
+      "id": "editorial_image",
+      "label": "Editorial Bild"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Värmland · Sweden"
+    },
+    {
+      "type": "text",
+      "id": "title_main",
+      "label": "Titel Hauptwort",
+      "default": "Finnskog"
+    },
+    {
+      "type": "text",
+      "id": "title_italic",
+      "label": "Titel kursiv",
+      "default": "Dark"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Untertitel",
+      "default": "Dark Nordic Gin · 40 % vol · 700 ml"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Beschreibung",
+      "default": "Ein dunkler Nordic Gin, inspiriert von den Wäldern zwischen Schweden und Norwegen. Wacholder, Ringelblume, Fichte und Koriander verbinden sich zu einer kleinen, handnummerierten Edition. Limitiert auf 150 Flaschen."
+    },
+    {
+      "type": "text",
+      "id": "base_price",
+      "label": "Grundpreis",
+      "default": "57,13 € / l"
+    },
+    {
+      "type": "text",
+      "id": "batch",
+      "label": "Batch",
+      "default": "01 / 26"
+    },
+    {
+      "type": "text",
+      "id": "meta_left",
+      "label": "Meta links",
+      "default": "Handnummeriert"
+    },
+    {
+      "type": "text",
+      "id": "meta_right",
+      "label": "Meta rechts",
+      "default": "No. ___ / 150"
+    },
+    {
+      "type": "range",
+      "id": "max_qty",
+      "label": "Max. Menge",
+      "min": 1,
+      "max": 12,
+      "step": 1,
+      "default": 6
+    },
+    {
+      "type": "text",
+      "id": "feature_1",
+      "label": "Feature 1",
+      "default": "Limitiert auf 150"
+    },
+    {
+      "type": "text",
+      "id": "feature_2",
+      "label": "Feature 2",
+      "default": "Handnummeriert"
+    },
+    {
+      "type": "text",
+      "id": "feature_3",
+      "label": "Feature 3",
+      "default": "700 ml · 40 % vol"
+    },
+    {
+      "type": "text",
+      "id": "feature_4",
+      "label": "Feature 4",
+      "default": "Fulfilled by Gentle Gin Berlin"
+    },
+    {
+      "type": "text",
+      "id": "manifesto_eyebrow",
+      "label": "Manifesto Eyebrow",
+      "default": "The Spirit"
+    },
+    {
+      "type": "text",
+      "id": "quote",
+      "label": "Zitat",
+      "default": "The dark of the forest, drawn into glass."
+    },
+    {
+      "type": "textarea",
+      "id": "manifesto_text",
+      "label": "Manifesto Text",
+      "default": "Finnskog Dark ist eine kleine Edition mit nordischem Charakter. Trocken, dunkel, kräutrig und klar. Ein Gin, der nicht laut sein muss, um hängen zu bleiben."
+    },
+    {
+      "type": "text",
+      "id": "botanical_title",
+      "label": "Botanical Titel",
+      "default": "Four ingredients, one forest."
+    },
+    {
+      "type": "text",
+      "id": "bot_1",
+      "label": "Botanical 1",
+      "default": "Wacholder"
+    },
+    {
+      "type": "textarea",
+      "id": "bot_1_text",
+      "label": "Botanical 1 Text",
+      "default": "Die trockene Basis. Harzig, klar und klassisch."
+    },
+    {
+      "type": "text",
+      "id": "bot_2",
+      "label": "Botanical 2",
+      "default": "Ringelblume"
+    },
+    {
+      "type": "textarea",
+      "id": "bot_2_text",
+      "label": "Botanical 2 Text",
+      "default": "Eine warme florale Note mit sanftem, goldenem Charakter."
+    },
+    {
+      "type": "text",
+      "id": "bot_3",
+      "label": "Botanical 3",
+      "default": "Fichte"
+    },
+    {
+      "type": "textarea",
+      "id": "bot_3_text",
+      "label": "Botanical 3 Text",
+      "default": "Grüne Waldluft. Kühl, nadelig und tief."
+    },
+    {
+      "type": "text",
+      "id": "bot_4",
+      "label": "Botanical 4",
+      "default": "Koriander"
+    },
+    {
+      "type": "textarea",
+      "id": "bot_4_text",
+      "label": "Botanical 4 Text",
+      "default": "Zitrische Würze, feine Schärfe und Länge."
+    },
+    {
+      "type": "text",
+      "id": "editorial_eyebrow",
+      "label": "Editorial Eyebrow",
+      "default": "Origin"
+    },
+    {
+      "type": "text",
+      "id": "editorial_text",
+      "label": "Editorial Text",
+      "default": "From the edge of the forest. Bottled in Berlin."
+    },
+    {
+      "type": "text",
+      "id": "spec_category",
+      "label": "Spezifikation Kategorie",
+      "default": "Dark Nordic Gin"
+    },
+    {
+      "type": "text",
+      "id": "spec_alcohol",
+      "label": "Spezifikation Alkohol",
+      "default": "40 % vol"
+    },
+    {
+      "type": "text",
+      "id": "spec_volume",
+      "label": "Spezifikation Inhalt",
+      "default": "700 ml"
+    },
+    {
+      "type": "text",
+      "id": "spec_edition",
+      "label": "Spezifikation Edition",
+      "default": "Limited to 150 bottles"
+    },
+    {
+      "type": "text",
+      "id": "spec_origin",
+      "label": "Spezifikation Herkunft",
+      "default": "Värmland · Sweden"
+    },
+    {
+      "type": "text",
+      "id": "cta_eyebrow",
+      "label": "CTA Eyebrow",
+      "default": "A Small Release"
+    },
+    {
+      "type": "text",
+      "id": "cta_title",
+      "label": "CTA Titel",
+      "default": "One hundred and fifty bottles. No more."
+    },
+    {
+      "type": "textarea",
+      "id": "cta_text",
+      "label": "CTA Text",
+      "default": "Jede Flasche stammt aus einem kleinen Batch. Wenn die Edition ausverkauft ist, ist sie ausverkauft."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Finnskog Dark Landing"
+    }
+  ]
+}
+{% endschema %}
