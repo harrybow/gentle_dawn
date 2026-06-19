@@ -14,13 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_mpxUNV": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
         "6b1df875-7d43-4b20-8e8f-621f0c991c03": {
           "type": "announcement",
           "settings": {
@@ -30,7 +23,6 @@
         }
       },
       "block_order": [
-        "announcement_mpxUNV",
         "6b1df875-7d43-4b20-8e8f-621f0c991c03"
       ],
       "settings": {
