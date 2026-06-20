@@ -19,7 +19,10 @@
     "klaviyo_newsletter_form": {
       "type": "custom-liquid",
       "settings": {
-      "custom_liquid": "<div style=\"max-width:520px;margin:0 auto 60px auto;padding:20px;\"><div class=\"klaviyo-form-WbyXMs\"></div></div>",
+        "custom_liquid": "<div class='klaviyo-form-WbyXMs'></div>",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 52
       }
     }
   },
