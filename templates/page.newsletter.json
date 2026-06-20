@@ -19,7 +19,7 @@
     "klaviyo_newsletter_form": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-WbyXMs\"></div>",
+        "custom_liquid": "<div style=\"padding:20px;margin:20px 0;background:#fff3cd;color:#111;text-align:center;font-weight:bold;\">TEST KLAVIYO SECTION</div><div class=\"klaviyo-form-WbyXMs\"></div>",
         "color_scheme": "",
         "padding_top": 20,
         "padding_bottom": 52
