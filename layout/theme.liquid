@@ -332,8 +332,8 @@
       };
     </script>
 
-    {%- if settings.predictive_search_enabled -%}
-      <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-    {%- endif -%}
+    {% if request.path == '/pages/newsletter' %}
+  <script src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VVkMmw"></script>
+{% endif %}
   </body>
 </html>
