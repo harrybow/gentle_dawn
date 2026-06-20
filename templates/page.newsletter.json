@@ -17,28 +17,6 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_GdUNRc": {
-      "type": "rich-text",
-      "blocks": {
-        "text_qdrzRc": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_qdrzRc"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "172545217184807272": {
       "type": "apps",
       "blocks": {
@@ -68,28 +46,6 @@
         "include_margins": true
       }
     },
-    "rich_text_8A3yQy": {
-      "type": "rich-text",
-      "blocks": {
-        "text_9UU89U": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_9UU89U"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "1781963395fd519e9b": {
       "type": "apps",
       "blocks": {
@@ -110,9 +66,7 @@
   },
   "order": [
     "main",
-    "rich_text_GdUNRc",
     "172545217184807272",
-    "rich_text_8A3yQy",
     "1781963395fd519e9b"
   ]
 }
