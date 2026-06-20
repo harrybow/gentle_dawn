@@ -19,7 +19,7 @@
     "klaviyo_newsletter_form": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script async src=\"https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VVkMmw\"></script><div class=\"klaviyo-form-WbyXMs\"></div>",
+        "custom_liquid": "<div style=\"max-width:520px;margin:0 auto 60px auto;padding:20px;\"><div class=\"klaviyo-form-WbyXMs\"></div></div><script src=\"https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VKMmw\"></script>",
         "color_scheme": "",
         "padding_top": 20,
         "padding_bottom": 52
