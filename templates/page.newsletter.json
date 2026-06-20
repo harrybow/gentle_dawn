@@ -27,12 +27,6 @@
         "padding_bottom": 52
       }
     },
-    "1781965060bda1a3af": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "172545217184807272": {
       "type": "apps",
       "blocks": {
@@ -66,7 +60,6 @@
   "order": [
     "main",
     "custom_liquid_36iCMR",
-    "1781965060bda1a3af",
     "172545217184807272"
   ]
 }
